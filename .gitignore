@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+sync_connector_capability_dashboard_pilot_design_20260731_065640 (1).pdf
+sync_connector_capability_dashboard_pilot_design_20260731_065640 (1) (1).pdf
