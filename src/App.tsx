@@ -1,11 +1,10 @@
-import {
-} from './data/analysisCurrent'
 import { analysisCurrent } from './data/analysisCurrent'
 import type { ExecutiveMetricTone, Status } from './data/types'
 
 const {
   roundLabel,
   analysisDate,
+  scoringPolicy,
   executiveMetrics,
   capabilityGroups,
   scoreRows,
@@ -38,6 +37,7 @@ function App() {
             <span>Public evidence first</span>
             <span>PM-reviewed scoring</span>
             <span>{`${roundLabel}: ${analysisDate}`}</span>
+            {scoringPolicy ? <span>{scoringPolicy}</span> : null}
           </div>
         </div>
         <aside className="hero-aside">

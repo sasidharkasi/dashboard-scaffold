@@ -6,6 +6,7 @@ const sourceRegistryPath = path.join(root, 'analysis', 'source-registry.json')
 const capabilitySeedPath = path.join(root, 'analysis', 'capability-seed.json')
 const outputTsPath = path.join(root, 'src', 'data', 'analysisCurrent.ts')
 const outputJsonPath = path.join(root, 'analysis', 'out', 'latest-round.json')
+const outputEvidencePath = path.join(root, 'analysis', 'out', 'latest-evidence.json')
 
 const capabilityGroups = [
   {
@@ -93,62 +94,45 @@ function normalize(text) {
   return text.toLowerCase().replace(/\s+/g, ' ')
 }
 
-function matchKeywords(text, keywords) {
-  if (!text || !keywords?.length) {
-    return false
+function extractSnippet(text, keyword) {
+  const idx = text.indexOf(keyword.toLowerCase())
+
+  if (idx < 0) {
+    return ''
   }
 
-  return keywords.some((keyword) => text.includes(keyword.toLowerCase()))
+  const start = Math.max(idx - 60, 0)
+  const end = Math.min(idx + keyword.length + 120, text.length)
+  return text.slice(start, end).trim()
+}
+
+function findMatchedKeywords(text, keywords) {
+  if (!text || !keywords?.length) {
+    return []
+  }
+
+  const matches = keywords.filter((keyword) => text.includes(keyword.toLowerCase()))
+  return Array.from(new Set(matches))
 }
 
 function severityWeight(severity) {
-  if (severity === 'High') {
-    return 3
-  }
-
-  if (severity === 'Medium') {
-    return 2
-  }
-
-  return 1
+  return severity === 'High' ? 3 : severity === 'Medium' ? 2 : 1
 }
 
 function statusPoints(status) {
-  if (status === 'Lead') {
-    return 2
-  }
-
-  if (status === 'Parity') {
-    return 1
-  }
-
-  if (status === 'Lag') {
-    return -2
-  }
-
-  return 0
+  return status === 'Lead' ? 2 : status === 'Parity' ? 1 : status === 'Lag' ? -2 : 0
 }
 
-function deriveCompetitorState(text, keywords, syncNuance) {
-  const hasMatch = matchKeywords(text, keywords)
-
-  if (!text) {
+function deriveVendorState(vendor, evidenceCount, syncNuance) {
+  if (evidenceCount === 0) {
     return 'Not evaluated'
   }
 
-  if (syncNuance && hasMatch) {
+  if ((vendor === 'openai' || vendor === 'claude') && syncNuance) {
     return 'Capability difference'
   }
 
-  return hasMatch ? 'Supported' : 'Evidence needed'
-}
-
-function deriveMicrosoftState(text, keywords) {
-  if (!text) {
-    return 'Not evaluated'
-  }
-
-  return matchKeywords(text, keywords) ? 'Supported' : 'Evidence needed'
+  return 'Supported'
 }
 
 function deriveRowStatus(microsoft, glean, openAi, claude) {
@@ -159,27 +143,37 @@ function deriveRowStatus(microsoft, glean, openAi, claude) {
     return 'Parity'
   }
 
-  if (microsoft === 'Evidence needed' && competitorSupported) {
+  if (microsoft === 'Not evaluated' && competitorSupported) {
     return 'Lag'
   }
 
-  if (microsoft === 'Supported' && competitorDifference) {
-    return 'Closing gaps'
+  if (microsoft === 'Supported' && competitorDifference && !competitorSupported) {
+    return 'Capability difference'
   }
 
-  if (microsoft === 'Supported' && !competitorSupported) {
-    return 'Lead'
+  if (microsoft === 'Supported' && !competitorSupported && !competitorDifference) {
+    return 'Not evaluated'
   }
 
   return 'Not evaluated'
 }
 
-function deriveConfidence(matchedCount) {
-  if (matchedCount >= 4) {
+function deriveConfidence(records) {
+  const byVendor = records.reduce(
+    (acc, record) => {
+      acc[record.vendor] += 1
+      return acc
+    },
+    { microsoft: 0, glean: 0, openai: 0, claude: 0 },
+  )
+
+  const total = records.length
+
+  if (byVendor.microsoft >= 1 && total >= 4) {
     return 'High'
   }
 
-  if (matchedCount >= 2) {
+  if (byVendor.microsoft >= 1 && total >= 2) {
     return 'Medium'
   }
 
@@ -199,6 +193,45 @@ async function fetchSource(url) {
   } catch {
     return ''
   }
+}
+
+function buildSourceGroups(sourceRegistry) {
+  return sourceRegistry.reduce(
+    (acc, source) => {
+      const vendor = String(source.vendor || '').toLowerCase()
+      if (!acc[vendor]) {
+        acc[vendor] = []
+      }
+      acc[vendor].push(source)
+      return acc
+    },
+    { microsoft: [], glean: [], openai: [], claude: [] },
+  )
+}
+
+function collectVendorEvidence(vendor, sources, vendorTextMap, keywords, observedDate) {
+  const records = []
+
+  for (const source of sources) {
+    const text = vendorTextMap[source.url] || ''
+    const matchedKeywords = findMatchedKeywords(text, keywords)
+
+    if (matchedKeywords.length === 0) {
+      continue
+    }
+
+    const snippet = extractSnippet(text, matchedKeywords[0])
+    records.push({
+      vendor,
+      sourceLabel: source.label,
+      sourceUrl: source.url,
+      observedDate,
+      matchedKeywords,
+      snippet,
+    })
+  }
+
+  return records
 }
 
 function deriveExecutiveMetrics(scoreRows, changedCount) {
@@ -232,11 +265,13 @@ function deriveExecutiveMetrics(scoreRows, changedCount) {
   pressure.sort((a, b) => b.count - a.count)
 
   const topPressure =
-    pressure[0].vendor === 'glean'
-      ? 'Glean'
-      : pressure[0].vendor === 'openAi'
-        ? 'OpenAI'
-        : 'Claude'
+    pressure[0].count === 0
+      ? 'None'
+      : pressure[0].vendor === 'glean'
+        ? 'Glean'
+        : pressure[0].vendor === 'openAi'
+          ? 'OpenAI'
+          : 'Claude'
 
   return [
     {
@@ -254,13 +289,13 @@ function deriveExecutiveMetrics(scoreRows, changedCount) {
     {
       label: 'Top competitor pressure',
       value: topPressure,
-      detail: 'Pressure is highest where competitor support outpaces Microsoft evidence.',
+      detail: 'Pressure requires direct competitor evidence and direct Microsoft evidence gap.',
       tone: 'neutral',
     },
     {
       label: 'Evidence confidence',
       value: `${confidencePct}%`,
-      detail: 'Rows backed by at least medium evidence confidence from source matching.',
+      detail: 'Rows backed by at least medium confidence using explicit source matches.',
       tone: confidencePct >= 70 ? 'strong' : confidencePct >= 45 ? 'neutral' : 'alert',
     },
     {
@@ -285,46 +320,62 @@ async function main() {
   const sourceRegistry = await readJson(sourceRegistryPath, [])
   const capabilitySeed = await readJson(capabilitySeedPath, [])
   const previousRound = await readJson(outputJsonPath, null)
+  const observedDate = new Date().toISOString().slice(0, 10)
 
-  const vendorPages = { microsoft: '', glean: '', openAi: '', claude: '' }
+  const sourceGroups = buildSourceGroups(sourceRegistry)
+  const vendorTextMap = {}
 
   await Promise.all(
     sourceRegistry.map(async (source) => {
       const text = await fetchSource(source.url)
-      if (source.vendor === 'microsoft') {
-        vendorPages.microsoft += ` ${text}`
-      }
-      if (source.vendor === 'glean') {
-        vendorPages.glean += ` ${text}`
-      }
-      if (source.vendor === 'openai') {
-        vendorPages.openAi += ` ${text}`
-      }
-      if (source.vendor === 'claude') {
-        vendorPages.claude += ` ${text}`
-      }
+      vendorTextMap[source.url] = text
     }),
   )
 
+  const rowEvidence = []
+
   const generatedRows = capabilitySeed.map((seed) => {
-    const microsoft = deriveMicrosoftState(vendorPages.microsoft, seed.microsoftKeywords)
-    const glean = deriveCompetitorState(vendorPages.glean, seed.gleanKeywords, false)
-    const openAi = deriveCompetitorState(
-      vendorPages.openAi,
-      seed.openaiKeywords,
-      Boolean(seed.syncNuanceForOpenAi),
+    const microsoftEvidence = collectVendorEvidence(
+      'microsoft',
+      sourceGroups.microsoft,
+      vendorTextMap,
+      seed.microsoftKeywords,
+      observedDate,
     )
-    const claude = deriveCompetitorState(
-      vendorPages.claude,
+    const gleanEvidence = collectVendorEvidence(
+      'glean',
+      sourceGroups.glean,
+      vendorTextMap,
+      seed.gleanKeywords,
+      observedDate,
+    )
+    const openAiEvidence = collectVendorEvidence(
+      'openai',
+      sourceGroups.openai,
+      vendorTextMap,
+      seed.openaiKeywords,
+      observedDate,
+    )
+    const claudeEvidence = collectVendorEvidence(
+      'claude',
+      sourceGroups.claude,
+      vendorTextMap,
       seed.claudeKeywords,
-      Boolean(seed.syncNuanceForClaude),
+      observedDate,
     )
 
-    const matchedCount = [microsoft, glean, openAi, claude].filter((value) => {
-      return value === 'Supported' || value === 'Capability difference'
-    }).length
+    const microsoft = deriveVendorState('microsoft', microsoftEvidence.length, false)
+    const glean = deriveVendorState('glean', gleanEvidence.length, false)
+    const openAi = deriveVendorState('openai', openAiEvidence.length, Boolean(seed.syncNuanceForOpenAi))
+    const claude = deriveVendorState('claude', claudeEvidence.length, Boolean(seed.syncNuanceForClaude))
 
     const status = deriveRowStatus(microsoft, glean, openAi, claude)
+    const allEvidence = [...microsoftEvidence, ...gleanEvidence, ...openAiEvidence, ...claudeEvidence]
+
+    rowEvidence.push({
+      capability: seed.capability,
+      records: allEvidence,
+    })
 
     return {
       capability: seed.capability,
@@ -334,8 +385,8 @@ async function main() {
       claude,
       status,
       severity: seed.severity,
-      confidence: deriveConfidence(matchedCount),
-      note: `Generated from weekly source matching on ${new Date().toISOString().slice(0, 10)}.`,
+      confidence: deriveConfidence(allEvidence),
+      note: `Strict evidence run ${observedDate}: ${allEvidence.length} matched source records.`,
     }
   })
 
@@ -346,8 +397,10 @@ async function main() {
   }).length
 
   const analysisRound = {
-    roundLabel: 'Weekly automated analysis',
-    analysisDate: new Date().toISOString().slice(0, 10),
+    roundLabel: 'Weekly strict evidence analysis',
+    analysisDate: observedDate,
+    scoringPolicy:
+      'Strict evidence policy: a vendor capability is scored only when at least one direct source match exists.',
     executiveMetrics: deriveExecutiveMetrics(generatedRows, changedCount),
     capabilityGroups,
     scoreRows: generatedRows,
@@ -358,12 +411,14 @@ async function main() {
 
   await fs.mkdir(path.dirname(outputTsPath), { recursive: true })
   await fs.mkdir(path.dirname(outputJsonPath), { recursive: true })
+  await fs.mkdir(path.dirname(outputEvidencePath), { recursive: true })
 
   const outputTs = `import type { AnalysisRound } from './types'\n\nexport const analysisCurrent: AnalysisRound = ${JSON.stringify(analysisRound, null, 2)}\n`
   await fs.writeFile(outputTsPath, outputTs, 'utf8')
   await fs.writeFile(outputJsonPath, JSON.stringify(analysisRound, null, 2), 'utf8')
+  await fs.writeFile(outputEvidencePath, JSON.stringify(rowEvidence, null, 2), 'utf8')
 
-  console.log('Weekly analysis generated at src/data/analysisCurrent.ts')
+  console.log('Weekly strict evidence analysis generated.')
 }
 
 main().catch((error) => {

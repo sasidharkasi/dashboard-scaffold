@@ -1,0 +1,210 @@
+[
+  {
+    "capability": "ServiceNow KB synced connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "servicenow",
+          "connector"
+        ],
+        "snippet": "rk file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azure services, sql/oracle databases, sap. other platforms - workday, zendesk, jira, and more. to use a"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector",
+          "mcp"
+        ],
+        "snippet": ",\"item\":\"https://support.claude.com/en/collections/15399129-connectors\",\"name\":\"connectors\",\"position\":2},{\"@type\":\"listitem\",\"item\":\"https://support.claude.com/en/collections/17879441-cust"
+      }
+    ]
+  },
+  {
+    "capability": "Incremental sync",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "crawl"
+        ],
+        "snippet": "ustom connectors yes no synced connectors synced connectors crawl and index content from external sources into microsoft graph. this indexed data is discoverable in copilot and microsof"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "mcp"
+        ],
+        "snippet": "em\",\"name\":\"get started with custom connectors using remote mcp\",\"position\":4}]} {\"@context\":\"https://schema.org\",\"@type\":\"article\",\"description\":\"\",\"headline\":\"get started with custo"
+      }
+    ]
+  },
+  {
+    "capability": "Permission freshness",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "permissions"
+        ],
+        "snippet": "nd deploying a file collaboration in sharepoint and sharing permissions in the sharepoint modern experience . administrators can choose to exclude files from semantic indexing by reviewing th"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "permissions",
+          "acl"
+        ],
+        "snippet": "d-based (saas) and on-premises data sources. respect source permissions; users only access content for which they have appropriate permissions. microsoft and ecosystem partners provide a wide"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "permission",
+          "security"
+        ],
+        "snippet": "potentially modify data within those services based on your permissions. it’s important to make sure you’re only connecting to remote mcp servers that you trust and that you’re aware of clau"
+      }
+    ]
+  },
+  {
+    "capability": "Schema configuration",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "schema",
+          "connector"
+        ],
+        "snippet": "uilding a custom connector requires a developer to define a schema, register the connection in microsoft entra id, and write code to pull and push data. for on-premises sources, you can"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "mcp",
+          "tool"
+        ],
+        "snippet": "em\",\"name\":\"get started with custom connectors using remote mcp\",\"position\":4}]} {\"@context\":\"https://schema.org\",\"@type\":\"article\",\"description\":\"\",\"headline\":\"get started with custo"
+      }
+    ]
+  },
+  {
+    "capability": "Index browser and crawl diagnostics",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "index"
+        ],
+        "snippet": "semantic indexing for microsoft 365 copilot | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); var the"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "index",
+          "crawl"
+        ],
+        "snippet": "to data beyond microsoft 365. your organization can either index external data by using synced connectors or connect to data in real time by using federated connectors . this flexibili"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "search"
+        ],
+        "snippet": "dius: 14px; --card-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); --search-bar-border-radius: 10px; --search-bar-width: 100%; --ticket-blue-bg-color: #dce1f9; --ticket-blue-text-color: #334bfa;"
+      }
+    ]
+  },
+  {
+    "capability": "External group ACL support",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "group"
+        ],
+        "snippet": "evant people that would have been derived from distribution groups or from the organizational chart. people insights provide a list of relevant people to a user based on their public co"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "acl"
+        ],
+        "snippet": "metadata (like title and url), and an access control list (acl) that enforces permissions. after the content is ingested: unified index - the item becomes part of your organization’s"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "group",
+          "permission"
+        ],
+        "snippet": "m/terms\",\"sort_order\":1,\"link_location\":\"footer\",\"site_link_group_id\":35050},{\"id\":51277,\"help_center_site_id\":3634723,\"title\":\"product\",\"url\":\"https://www.anthropic.com/product\",\"sort_"
+      }
+    ]
+  }
+]

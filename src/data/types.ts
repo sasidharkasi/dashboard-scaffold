@@ -35,6 +35,20 @@ export type ScoreRow = {
   note: string
 }
 
+export type EvidenceRecord = {
+  vendor: 'microsoft' | 'glean' | 'openai' | 'claude'
+  sourceLabel: string
+  sourceUrl: string
+  observedDate: string
+  matchedKeywords: string[]
+  snippet: string
+}
+
+export type RowEvidence = {
+  capability: string
+  records: EvidenceRecord[]
+}
+
 export type Domain = {
   name: string
   connectors: string[]
@@ -48,6 +62,7 @@ export type ReviewStep = {
 export type AnalysisRound = {
   roundLabel: string
   analysisDate: string
+  scoringPolicy?: string
   executiveMetrics: ExecutiveMetric[]
   capabilityGroups: CapabilityGroup[]
   scoreRows: ScoreRow[]

@@ -1,6 +1,7 @@
 {
-  "roundLabel": "Weekly automated analysis",
+  "roundLabel": "Weekly strict evidence analysis",
   "analysisDate": "2026-08-03",
+  "scoringPolicy": "Strict evidence policy: a vendor capability is scored only when at least one direct source match exists.",
   "executiveMetrics": [
     {
       "label": "Overall sync capability position",
@@ -16,21 +17,21 @@
     },
     {
       "label": "Top competitor pressure",
-      "value": "Glean",
-      "detail": "Pressure is highest where competitor support outpaces Microsoft evidence.",
+      "value": "None",
+      "detail": "Pressure requires direct competitor evidence and direct Microsoft evidence gap.",
       "tone": "neutral"
     },
     {
       "label": "Evidence confidence",
       "value": "100%",
-      "detail": "Rows backed by at least medium evidence confidence from source matching.",
+      "detail": "Rows backed by at least medium confidence using explicit source matches.",
       "tone": "strong"
     },
     {
       "label": "Changed since last review",
-      "value": "0",
+      "value": "6",
       "detail": "Rows whose derived status changed since prior generated round.",
-      "tone": "neutral"
+      "tone": "alert"
     }
   ],
   "capabilityGroups": [
@@ -64,68 +65,68 @@
     {
       "capability": "ServiceNow KB synced connector",
       "microsoft": "Supported",
-      "glean": "Evidence needed",
-      "openAi": "Evidence needed",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
       "claude": "Capability difference",
-      "status": "Closing gaps",
+      "status": "Capability difference",
       "severity": "Medium",
       "confidence": "Medium",
-      "note": "Generated from weekly source matching on 2026-08-03."
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
       "capability": "Incremental sync",
       "microsoft": "Supported",
-      "glean": "Evidence needed",
-      "openAi": "Evidence needed",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
       "claude": "Capability difference",
-      "status": "Closing gaps",
+      "status": "Capability difference",
       "severity": "High",
       "confidence": "Medium",
-      "note": "Generated from weekly source matching on 2026-08-03."
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
     },
     {
       "capability": "Permission freshness",
       "microsoft": "Supported",
-      "glean": "Evidence needed",
-      "openAi": "Evidence needed",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
       "claude": "Supported",
       "status": "Parity",
       "severity": "High",
       "confidence": "Medium",
-      "note": "Generated from weekly source matching on 2026-08-03."
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
       "capability": "Schema configuration",
       "microsoft": "Supported",
-      "glean": "Evidence needed",
-      "openAi": "Evidence needed",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
       "claude": "Capability difference",
-      "status": "Closing gaps",
+      "status": "Capability difference",
       "severity": "Medium",
       "confidence": "Medium",
-      "note": "Generated from weekly source matching on 2026-08-03."
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
       "capability": "Index browser and crawl diagnostics",
       "microsoft": "Supported",
-      "glean": "Evidence needed",
-      "openAi": "Evidence needed",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
       "claude": "Supported",
       "status": "Parity",
       "severity": "Low",
       "confidence": "Medium",
-      "note": "Generated from weekly source matching on 2026-08-03."
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
       "capability": "External group ACL support",
       "microsoft": "Supported",
-      "glean": "Evidence needed",
-      "openAi": "Evidence needed",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
       "claude": "Supported",
       "status": "Parity",
       "severity": "High",
       "confidence": "Medium",
-      "note": "Generated from weekly source matching on 2026-08-03."
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
     }
   ],
   "domains": [
