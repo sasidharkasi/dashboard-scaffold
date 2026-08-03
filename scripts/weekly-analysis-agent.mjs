@@ -7,6 +7,8 @@ const capabilitySeedPath = path.join(root, 'analysis', 'capability-seed.json')
 const outputTsPath = path.join(root, 'src', 'data', 'analysisCurrent.ts')
 const outputJsonPath = path.join(root, 'analysis', 'out', 'latest-round.json')
 const outputEvidencePath = path.join(root, 'analysis', 'out', 'latest-evidence.json')
+const outputQualitativePath = path.join(root, 'analysis', 'out', 'latest-qualitative.json')
+const outputCapabilityTsPath = path.join(root, 'src', 'data', 'capabilityComparison.ts')
 
 const capabilityGroups = [
   {
@@ -180,6 +182,42 @@ function deriveConfidence(records) {
   return 'Low'
 }
 
+function qualitativeBand(evidenceCount) {
+  if (evidenceCount >= 3) {
+    return 'Strong evidence'
+  }
+
+  if (evidenceCount === 2) {
+    return 'Moderate evidence'
+  }
+
+  if (evidenceCount === 1) {
+    return 'Weak evidence'
+  }
+
+  return 'No evidence'
+}
+
+function vendorNarrative(vendor, state, evidenceCount, syncNuance) {
+  if (state === 'Not evaluated') {
+    return `${vendor}: no direct evidence found this run.`
+  }
+
+  if (state === 'Capability difference') {
+    return `${vendor}: evidence exists, but model appears non-sync in this capability context.`
+  }
+
+  if (syncNuance) {
+    return `${vendor}: supported signal found with nuance check enabled.`
+  }
+
+  return `${vendor}: supported signal found from ${evidenceCount} source match(es).`
+}
+
+function toBinary(state) {
+  return state === 'Supported' ? 'Yes' : 'No'
+}
+
 async function fetchSource(url) {
   try {
     const response = await fetch(url)
@@ -333,6 +371,8 @@ async function main() {
   )
 
   const rowEvidence = []
+  const qualitativeRows = []
+  const binaryRows = []
 
   const generatedRows = capabilitySeed.map((seed) => {
     const microsoftEvidence = collectVendorEvidence(
@@ -372,9 +412,62 @@ async function main() {
     const status = deriveRowStatus(microsoft, glean, openAi, claude)
     const allEvidence = [...microsoftEvidence, ...gleanEvidence, ...openAiEvidence, ...claudeEvidence]
 
+    const evidenceByVendor = {
+      microsoft: microsoftEvidence.length,
+      glean: gleanEvidence.length,
+      openAi: openAiEvidence.length,
+      claude: claudeEvidence.length,
+    }
+
     rowEvidence.push({
       capability: seed.capability,
       records: allEvidence,
+    })
+
+    qualitativeRows.push({
+      capability: seed.capability,
+      severity: seed.severity,
+      status,
+      evidenceStrength: qualitativeBand(allEvidence.length),
+      summary:
+        allEvidence.length === 0
+          ? 'No direct supporting evidence found this run.'
+          : `Found ${allEvidence.length} supporting evidence record(s) across vendors.`,
+      narratives: {
+        copilotConnectors: vendorNarrative(
+          'Copilot connectors',
+          microsoft,
+          evidenceByVendor.microsoft,
+          false,
+        ),
+        openAi: vendorNarrative(
+          'OpenAI',
+          openAi,
+          evidenceByVendor.openAi,
+          Boolean(seed.syncNuanceForOpenAi),
+        ),
+        claude: vendorNarrative(
+          'Claude',
+          claude,
+          evidenceByVendor.claude,
+          Boolean(seed.syncNuanceForClaude),
+        ),
+        glean: vendorNarrative('Glean', glean, evidenceByVendor.glean, false),
+      },
+      recommendation:
+        status === 'Lag'
+          ? 'Escalate for roadmap review.'
+          : status === 'Not evaluated'
+            ? 'Collect more evidence before scoring.'
+            : 'Keep under weekly monitoring.',
+    })
+
+    binaryRows.push({
+      capability: seed.capability,
+      copilotConnectors: toBinary(microsoft),
+      openAi: toBinary(openAi),
+      claude: toBinary(claude),
+      glean: toBinary(glean),
     })
 
     return {
@@ -412,13 +505,19 @@ async function main() {
   await fs.mkdir(path.dirname(outputTsPath), { recursive: true })
   await fs.mkdir(path.dirname(outputJsonPath), { recursive: true })
   await fs.mkdir(path.dirname(outputEvidencePath), { recursive: true })
+  await fs.mkdir(path.dirname(outputQualitativePath), { recursive: true })
+  await fs.mkdir(path.dirname(outputCapabilityTsPath), { recursive: true })
 
   const outputTs = `import type { AnalysisRound } from './types'\n\nexport const analysisCurrent: AnalysisRound = ${JSON.stringify(analysisRound, null, 2)}\n`
+  const capabilityTs = `export type Binary = 'Yes' | 'No'\n\nexport type CapabilityRow = {\n  capability: string\n  copilotConnectors: Binary\n  openAi: Binary\n  claude: Binary\n  glean: Binary\n}\n\nexport const capabilityRows: CapabilityRow[] = ${JSON.stringify(binaryRows, null, 2)}\n`
+
   await fs.writeFile(outputTsPath, outputTs, 'utf8')
   await fs.writeFile(outputJsonPath, JSON.stringify(analysisRound, null, 2), 'utf8')
   await fs.writeFile(outputEvidencePath, JSON.stringify(rowEvidence, null, 2), 'utf8')
+  await fs.writeFile(outputQualitativePath, JSON.stringify(qualitativeRows, null, 2), 'utf8')
+  await fs.writeFile(outputCapabilityTsPath, capabilityTs, 'utf8')
 
-  console.log('Weekly strict evidence analysis generated.')
+  console.log('Weekly strict evidence and qualitative analysis generated.')
 }
 
 main().catch((error) => {

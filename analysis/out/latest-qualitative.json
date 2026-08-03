@@ -1,0 +1,86 @@
+[
+  {
+    "capability": "ServiceNow KB synced connector",
+    "severity": "Medium",
+    "status": "Capability difference",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 2 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: evidence exists, but model appears non-sync in this capability context.",
+      "glean": "Glean: no direct evidence found this run."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "Incremental sync",
+    "severity": "High",
+    "status": "Capability difference",
+    "evidenceStrength": "Moderate evidence",
+    "summary": "Found 2 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 1 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: evidence exists, but model appears non-sync in this capability context.",
+      "glean": "Glean: no direct evidence found this run."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "Permission freshness",
+    "severity": "High",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 2 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: supported signal found from 1 source match(es).",
+      "glean": "Glean: no direct evidence found this run."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "Schema configuration",
+    "severity": "Medium",
+    "status": "Capability difference",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 2 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: evidence exists, but model appears non-sync in this capability context.",
+      "glean": "Glean: no direct evidence found this run."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "Index browser and crawl diagnostics",
+    "severity": "Low",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 2 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: supported signal found from 1 source match(es).",
+      "glean": "Glean: no direct evidence found this run."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "External group ACL support",
+    "severity": "High",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 2 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: supported signal found from 1 source match(es).",
+      "glean": "Glean: no direct evidence found this run."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  }
+]

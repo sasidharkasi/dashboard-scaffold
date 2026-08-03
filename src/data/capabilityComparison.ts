@@ -10,38 +10,45 @@ export type CapabilityRow = {
 
 export const capabilityRows: CapabilityRow[] = [
   {
-    capability: 'ServiceNow connector available',
-    copilotConnectors: 'Yes',
-    openAi: 'No',
-    claude: 'No',
-    glean: 'Yes',
+    "capability": "ServiceNow KB synced connector",
+    "copilotConnectors": "Yes",
+    "openAi": "No",
+    "claude": "No",
+    "glean": "No"
   },
   {
-    capability: 'Incremental sync',
-    copilotConnectors: 'Yes',
-    openAi: 'No',
-    claude: 'No',
-    glean: 'Yes',
+    "capability": "Incremental sync",
+    "copilotConnectors": "Yes",
+    "openAi": "No",
+    "claude": "No",
+    "glean": "No"
   },
   {
-    capability: 'Permission-aware indexing',
-    copilotConnectors: 'Yes',
-    openAi: 'No',
-    claude: 'No',
-    glean: 'Yes',
+    "capability": "Permission freshness",
+    "copilotConnectors": "Yes",
+    "openAi": "No",
+    "claude": "Yes",
+    "glean": "No"
   },
   {
-    capability: 'Admin pause and resume controls',
-    copilotConnectors: 'Yes',
-    openAi: 'No',
-    claude: 'No',
-    glean: 'Yes',
+    "capability": "Schema configuration",
+    "copilotConnectors": "Yes",
+    "openAi": "No",
+    "claude": "No",
+    "glean": "No"
   },
   {
-    capability: 'Connector-level observability',
-    copilotConnectors: 'Yes',
-    openAi: 'No',
-    claude: 'No',
-    glean: 'Yes',
+    "capability": "Index browser and crawl diagnostics",
+    "copilotConnectors": "Yes",
+    "openAi": "No",
+    "claude": "Yes",
+    "glean": "No"
   },
+  {
+    "capability": "External group ACL support",
+    "copilotConnectors": "Yes",
+    "openAi": "No",
+    "claude": "Yes",
+    "glean": "No"
+  }
 ]
