@@ -1,6 +1,6 @@
 [
   {
-    "capability": "Native connector portfolio",
+    "capability": "ServiceNow ITSM incidents & ticket ingestion",
     "severity": "High",
     "status": "Parity",
     "evidenceStrength": "Strong evidence",
@@ -14,7 +14,21 @@
     "recommendation": "Keep under weekly monitoring."
   },
   {
-    "capability": "Push API and custom connectors",
+    "capability": "ServiceNow Knowledge Article support with content publishing",
+    "severity": "High",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 1 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: no direct evidence found this run.",
+      "glean": "Glean: supported signal found from 2 source match(es)."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "APM & CMDB Business Application support",
     "severity": "High",
     "status": "Lag",
     "evidenceStrength": "Moderate evidence",
@@ -28,139 +42,41 @@
     "recommendation": "Escalate for roadmap review."
   },
   {
-    "capability": "Live and hybrid access modes",
+    "capability": "SAML/OIDC authentication with federated identity",
     "severity": "High",
-    "status": "Lag",
-    "evidenceStrength": "Moderate evidence",
-    "summary": "Found 2 supporting evidence record(s) across vendors.",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 8 supporting evidence record(s) across vendors.",
     "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
+      "copilotConnectors": "Copilot connectors: supported signal found from 2 source match(es).",
       "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 2 source match(es)."
+      "claude": "Claude: supported signal found from 1 source match(es).",
+      "glean": "Glean: supported signal found from 5 source match(es)."
     },
-    "recommendation": "Escalate for roadmap review."
+    "recommendation": "Keep under weekly monitoring."
   },
   {
-    "capability": "Panopto video connector",
-    "severity": "Medium",
-    "status": "Lag",
-    "evidenceStrength": "Weak evidence",
-    "summary": "Found 1 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 1 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "Veeva Vault connector",
-    "severity": "Medium",
-    "status": "Lag",
-    "evidenceStrength": "Weak evidence",
-    "summary": "Found 1 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 1 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "Autodesk Construction Cloud connector",
-    "severity": "Medium",
-    "status": "Lag",
-    "evidenceStrength": "Weak evidence",
-    "summary": "Found 1 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 1 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "NetSuite MCP support",
-    "severity": "Medium",
-    "status": "Lag",
-    "evidenceStrength": "Weak evidence",
-    "summary": "Found 1 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 1 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "BigQuery integration with natural language",
-    "severity": "Medium",
-    "status": "Lag",
-    "evidenceStrength": "Weak evidence",
-    "summary": "Found 1 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 1 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "Connector authentication configuration",
+    "capability": "ServiceNow OAuth application & token lifecycle management",
     "severity": "High",
-    "status": "Lag",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 4 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 1 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: no direct evidence found this run.",
+      "glean": "Glean: supported signal found from 3 source match(es)."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "Permission & ACL mapping - role-based + record-level access",
+    "severity": "High",
+    "status": "Parity",
     "evidenceStrength": "Strong evidence",
     "summary": "Found 7 supporting evidence record(s) across vendors.",
     "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: supported signal found from 3 source match(es).",
-      "glean": "Glean: supported signal found from 4 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "Connector content filters and inclusion rules",
-    "severity": "High",
-    "status": "Lag",
-    "evidenceStrength": "Weak evidence",
-    "summary": "Found 1 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 1 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "Crawl frequency and scheduling setup",
-    "severity": "Medium",
-    "status": "Lag",
-    "evidenceStrength": "Weak evidence",
-    "summary": "Found 1 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: supported signal found from 1 source match(es)."
-    },
-    "recommendation": "Escalate for roadmap review."
-  },
-  {
-    "capability": "Custom connector onboarding",
-    "severity": "Medium",
-    "status": "Parity",
-    "evidenceStrength": "Strong evidence",
-    "summary": "Found 5 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: supported signal found from 2 source match(es).",
+      "copilotConnectors": "Copilot connectors: supported signal found from 4 source match(es).",
       "openAi": "OpenAI: no direct evidence found this run.",
       "claude": "Claude: supported signal found from 1 source match(es).",
       "glean": "Glean: supported signal found from 2 source match(es)."
@@ -168,7 +84,35 @@
     "recommendation": "Keep under weekly monitoring."
   },
   {
-    "capability": "Connector health status dashboard",
+    "capability": "Connector sync monitoring - initial sync phases & metrics",
+    "severity": "High",
+    "status": "Lag",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: no direct evidence found this run.",
+      "glean": "Glean: supported signal found from 3 source match(es)."
+    },
+    "recommendation": "Escalate for roadmap review."
+  },
+  {
+    "capability": "Connector health metrics & alerting (Crawl rate, Change rate)",
+    "severity": "High",
+    "status": "Lag",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: no direct evidence found this run.",
+      "glean": "Glean: supported signal found from 3 source match(es)."
+    },
+    "recommendation": "Escalate for roadmap review."
+  },
+  {
+    "capability": "Connector error handling & credential failure alerts",
     "severity": "High",
     "status": "Lag",
     "evidenceStrength": "Weak evidence",
@@ -182,36 +126,50 @@
     "recommendation": "Escalate for roadmap review."
   },
   {
-    "capability": "Crawl error diagnostics",
+    "capability": "Content deletion & permission sync - webhooks vs full crawl",
     "severity": "High",
-    "status": "Not evaluated",
-    "evidenceStrength": "No evidence",
-    "summary": "No direct supporting evidence found this run.",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
     "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
-      "openAi": "OpenAI: no direct evidence found this run.",
-      "claude": "Claude: no direct evidence found this run.",
-      "glean": "Glean: no direct evidence found this run."
-    },
-    "recommendation": "Collect more evidence before scoring."
-  },
-  {
-    "capability": "Deletion and stale-content cleanup",
-    "severity": "High",
-    "status": "Lag",
-    "evidenceStrength": "Moderate evidence",
-    "summary": "Found 2 supporting evidence record(s) across vendors.",
-    "narratives": {
-      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
+      "copilotConnectors": "Copilot connectors: supported signal found from 1 source match(es).",
       "openAi": "OpenAI: no direct evidence found this run.",
       "claude": "Claude: no direct evidence found this run.",
       "glean": "Glean: supported signal found from 2 source match(es)."
     },
-    "recommendation": "Escalate for roadmap review."
+    "recommendation": "Keep under weekly monitoring."
   },
   {
-    "capability": "Change-rate and crawl-rate tracking",
+    "capability": "Crawl scheduling - full vs incremental refresh frequency",
+    "severity": "High",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 8 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 3 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: no direct evidence found this run.",
+      "glean": "Glean: supported signal found from 5 source match(es)."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "Connector visibility controls & test group rollout",
     "severity": "Medium",
+    "status": "Parity",
+    "evidenceStrength": "Strong evidence",
+    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "narratives": {
+      "copilotConnectors": "Copilot connectors: supported signal found from 1 source match(es).",
+      "openAi": "OpenAI: no direct evidence found this run.",
+      "claude": "Claude: no direct evidence found this run.",
+      "glean": "Glean: supported signal found from 2 source match(es)."
+    },
+    "recommendation": "Keep under weekly monitoring."
+  },
+  {
+    "capability": "Microsoft Graph schema, semantic labels & search attributes",
+    "severity": "High",
     "status": "Not evaluated",
     "evidenceStrength": "No evidence",
     "summary": "No direct supporting evidence found this run.",

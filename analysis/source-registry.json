@@ -1,23 +1,23 @@
 [
   {
     "vendor": "microsoft",
-    "label": "Microsoft Learn - Semantic Index for Copilot",
-    "url": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot"
+    "label": "Microsoft ServiceNow Knowledge connector deployment",
+    "url": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment"
   },
   {
     "vendor": "microsoft",
-    "label": "Microsoft Learn - Microsoft Graph connectors overview",
-    "url": "https://learn.microsoft.com/microsoftsearch/connectors-overview"
+    "label": "Microsoft connectors overview",
+    "url": "https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview"
   },
   {
     "vendor": "microsoft",
-    "label": "Microsoft Learn - Connector gallery and docs",
-    "url": "https://learn.microsoft.com/microsoftsearch/connectors-gallery"
+    "label": "Microsoft Copilot connector deployment overview",
+    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview"
   },
   {
     "vendor": "microsoft",
-    "label": "Microsoft 365 Copilot extensibility",
-    "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/"
+    "label": "Microsoft Graph connectors API overview",
+    "url": "https://learn.microsoft.com/en-us/graph/connecting-external-content-connectors-api-overview"
   },
   {
     "vendor": "openai",
@@ -51,32 +51,42 @@
   },
   {
     "vendor": "glean",
-    "label": "Glean Release Notes",
-    "url": "https://docs.glean.com/release-notes/"
+    "label": "Glean ServiceNow connector about",
+    "url": "https://docs.glean.com/connectors/native/servicenow/about"
   },
   {
     "vendor": "glean",
-    "label": "Glean Connectors hub",
-    "url": "https://docs.glean.com/connectors/"
+    "label": "Glean ServiceNow connector setup",
+    "url": "https://docs.glean.com/connectors/native/servicenow/setup"
   },
   {
     "vendor": "glean",
-    "label": "Glean Connectors crawling frequency",
+    "label": "Glean connector authentication requirements",
+    "url": "https://docs.glean.com/connectors/connector-auth-requirements"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean connector monitoring",
+    "url": "https://docs.glean.com/connectors/connectors-monitoring"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean connector health index",
+    "url": "https://docs.glean.com/connectors/connectors-health-index"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean crawling frequency",
     "url": "https://docs.glean.com/connectors/crawling-frequency"
   },
   {
     "vendor": "glean",
-    "label": "Glean Security principles",
-    "url": "https://docs.glean.com/security/security-principles"
+    "label": "Glean crawling deletion",
+    "url": "https://docs.glean.com/connectors/crawling-deletion"
   },
   {
     "vendor": "glean",
-    "label": "Glean Administration overview",
-    "url": "https://docs.glean.com/administration/about"
-  },
-  {
-    "vendor": "glean",
-    "label": "Glean Agent docs",
-    "url": "https://docs.glean.com/agents/"
+    "label": "Glean connector settings and visibility",
+    "url": "https://docs.glean.com/connectors/connectors-settings-visibility"
   }
 ]

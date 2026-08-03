@@ -1,220 +1,194 @@
 [
   {
-    "capability": "Native connector portfolio",
+    "capability": "ServiceNow ITSM incidents & ticket ingestion",
     "records": [
       {
         "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Connector gallery and docs",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-gallery",
+        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "Microsoft 365 connectors"
+          "Knowledge connector"
         ],
-        "snippet": "built and supported by microsoft partners. related content microsoft 365 connectors overview deployment overview feedback was this page helpful? yes no no need help with this topic? want to try using ask"
+        "snippet": "deploy the servicenow knowledge connector - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); v"
       },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors hub",
-        "sourceUrl": "https://docs.glean.com/connectors/",
+        "sourceLabel": "Glean ServiceNow connector about",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "native connectors",
-          "connector types"
+          "ITSM",
+          "itil role",
+          "incidents"
         ],
-        "snippet": "ctors and the glean experience key terms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals connectors hub o"
+        "snippet": "service catalog items, news articles (content publishing), itsm incidents, customer service cases, apm business applications, and spm demands, epics and projects, ensuring that users"
       },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors crawling frequency",
-        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "sourceLabel": "Glean ServiceNow connector setup",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "native connectors"
+          "ITSM",
+          "incident table",
+          "incidents"
         ],
-        "snippet": "ctors and the glean experience key terms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals crawl and index"
+        "snippet": "xes the following: knowledge articles service catalog items itsm incidents (incident table) apm business applications (cmdb_ci_business_app table) and spm demands epics and projects (d"
       }
     ]
   },
   {
-    "capability": "Push API and custom connectors",
+    "capability": "ServiceNow Knowledge Article support with content publishing",
     "records": [
       {
-        "vendor": "glean",
-        "sourceLabel": "Glean Connectors hub",
-        "sourceUrl": "https://docs.glean.com/connectors/",
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "custom connectors"
+          "ServiceNow Knowledge connector"
         ],
-        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals connectors hub on this page connectors hub glean conn"
+        "snippet": "deploy the servicenow knowledge connector - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); v"
       },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors crawling frequency",
-        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "sourceLabel": "Glean ServiceNow connector about",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "custom connectors"
+          "Knowledge Articles",
+          "Service Catalog",
+          "News Articles",
+          "Content Publishing"
         ],
-        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals crawl and index connectors strategy crawl strategy th"
-      }
-    ]
-  },
-  {
-    "capability": "Live and hybrid access modes",
-    "records": [
-      {
-        "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "federated search"
-        ],
-        "snippet": "explore real-time voice in glean assistant [road-1370] o365 federated search: container filter facets and gst facet parity o365 federated search now supports container filters for sharepoint and o"
+        "snippet": "ctor for glean allows glean to fetch and index content from knowledge articles, service catalog items, news articles (content publishing), itsm incidents, customer service cases, apm business applic"
       },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors hub",
-        "sourceUrl": "https://docs.glean.com/connectors/",
+        "sourceLabel": "Glean ServiceNow connector setup",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "hybrid access"
+          "Knowledge Articles",
+          "Service Catalog",
+          "News Articles",
+          "Portal Content",
+          "Content Publishing"
         ],
-        "snippet": "ectors are, the connector types, and how indexed, live, and hybrid access differ. custom connectors index content from proprietary or less common sources that lack a native connector, using gle"
+        "snippet": "prerequisites ​ glean currently only indexes the following: knowledge articles service catalog items itsm incidents (incident table) apm business applications (cmdb_ci_business_app table) and spm de"
       }
     ]
   },
   {
-    "capability": "Panopto video connector",
+    "capability": "APM & CMDB Business Application support",
     "records": [
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "sourceLabel": "Glean ServiceNow connector about",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "Panopto connector"
+          "APM Business Applications",
+          "sn_apm.apm_user"
         ],
-        "snippet": "utodesk construction cloud connector connectors [road-1326] panopto connector the panopto connector enables organizations to seamlessly integrate panopto video content into glean, making it easy to"
+        "snippet": "ontent publishing), itsm incidents, customer service cases, apm business applications, and spm demands, epics and projects, ensuring that users can search for and access documents for which they have autho"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean ServiceNow connector setup",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "APM Business Applications",
+          "cmdb_ci_business_app",
+          "sn_apm.apm_user"
+        ],
+        "snippet": "icles service catalog items itsm incidents (incident table) apm business applications (cmdb_ci_business_app table) and spm demands epics and projects (dmn_demand, rm_epic, pm_project tables) in servicenow."
       }
     ]
   },
   {
-    "capability": "Veeva Vault connector",
+    "capability": "SAML/OIDC authentication with federated identity",
     "records": [
       {
-        "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "Veeva Vault",
-          "quality documents"
+          "Federated Auth",
+          "OIDC",
+          "Microsoft Entra ID OpenID Connect",
+          "OAuth 2.0"
         ],
-        "snippet": "he web crawler connector. learn more connectors [road-1399] veeva vault connector glean now includes a native veeva vault connector, so admins can make veeva vault quality documents searchabl"
-      }
-    ]
-  },
-  {
-    "capability": "Autodesk Construction Cloud connector",
-    "records": [
+        "snippet": "enow connector supports the following authentication types: federated auth (recommended) - for details, see federated auth basic authentication - enter the username and password of a servicenow"
+      },
       {
-        "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "project knowledge"
+          "OAuth 2.0"
         ],
-        "snippet": "nstruction, architecture, engineering, and owner teams find project knowledge faster, discover related work across projects, and support compliance, audit, and onboarding workflows from one place."
-      }
-    ]
-  },
-  {
-    "capability": "NetSuite MCP support",
-    "records": [
+        "snippet": "ated access respects source permissions and authentication (oauth 2.0). default federated connectors are provided by microsoft and appear as ready in your connections list in the microsoft"
+      },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "sourceLabel": "Glean ServiceNow connector about",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "NetSuite MCP",
-          "action pack"
+          "service account",
+          "sso"
         ],
-        "snippet": "nt flow in their browser. learn more connectors [road-1448] netsuite mcp support netsuite mcp support lets teams use glean assistant and agents to run live, permission-aware workflows against"
-      }
-    ]
-  },
-  {
-    "capability": "BigQuery integration with natural language",
-    "records": [
+        "snippet": "​ admin access to setup the connector admin access for the service account is preferred (custom role can be defined) disclaimer: please be advised that glean does not recommend utilizing a servi"
+      },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "sourceLabel": "Glean ServiceNow connector setup",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "BigQuery MCP"
+          "service account",
+          "gleansearch user",
+          "sso"
         ],
-        "snippet": "sql glean assistant can now query bigquery directly through bigquery mcp, google's official mcp server for bigquery, so users can ask questions in natural language or run sql against approved"
-      }
-    ]
-  },
-  {
-    "capability": "Connector authentication configuration",
-    "records": [
+        "snippet": "omized role, please reach out to glean support. 1. create a service account that glean will use for fetching information from servicenow: ​ navigate to organization → users and click new . set us"
+      },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "sourceLabel": "Glean connector authentication requirements",
+        "sourceUrl": "https://docs.glean.com/connectors/connector-auth-requirements",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "oauth",
+          "OAuth 2.0",
+          "service account",
+          "sso"
+        ],
+        "snippet": "the user can't see content in private repositories intercom oauth 2.0 private app (admin-configured) lets glean show the user only the conversations, tickets, and draft articles their inter"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector health index",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
           "service account"
         ],
-        "snippet": "gister external a2a agent servers in the admin console with oauth credentials, and agent builders can add those external agents as sub-agents in plan & execute and auto mode workflows."
+        "snippet": "gested and insufficient permissions tickets are caused by a service account or app registration that is missing one or more required scopes, or that has had a scope downgraded on the source side."
       },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors hub",
-        "sourceUrl": "https://docs.glean.com/connectors/",
+        "sourceLabel": "Glean connector settings and visibility",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector setup"
+          "sso",
+          "identity provider"
         ],
-        "snippet": "tors custom connectors configure actions configure tools in connector setup fundamentals connectors hub on this page connectors hub glean connectors bring content from your company's apps into gl"
-      },
-      {
-        "vendor": "glean",
-        "sourceLabel": "Glean Connectors crawling frequency",
-        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector setup"
-        ],
-        "snippet": "tors custom connectors configure actions configure tools in connector setup fundamentals crawl and index connectors strategy crawl strategy the glean crawling system retrieves and indexes content"
-      },
-      {
-        "vendor": "glean",
-        "sourceLabel": "Glean Administration overview",
-        "sourceUrl": "https://docs.glean.com/administration/about",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "oauth"
-        ],
-        "snippet": "ills tools tools overview set up tools managing tools tools oauth reference connect remote mcp servers to glean custom mcp headers supported remote mcp servers glean mcp server about gl"
-      },
-      {
-        "vendor": "claude",
-        "sourceLabel": "Anthropic - About connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "oauth"
-        ],
-        "snippet": "er url. optionally, click “advanced settings” to specify an oauth client id and oauth client secret for your server. finish configuring your connector by clicking &quot;add.&quot; steps"
+        "snippet": "inutes to disappear from search results. glean removes all associated data in the background. caution you cannot easily reverse these tools. deleting a connector requires you to go th"
       },
       {
         "vendor": "claude",
@@ -222,153 +196,393 @@
         "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "oauth"
+          "identity federation"
         ],
-        "snippet": "\"https://sandbox.claudemcpcontent.com/imagine_mcp\\\",\\\"googleoauthclientid\\\":\\\"1062961139910-l2m55cb9h51u5cuc9c56eb3fevouidh9.apps.googleusercontent.com\\\",\\\"stripepublishablekey\\\":\\\"pk_l"
+        "snippet": "/workload-identity-federation\\\",\\\"sidebartitle\\\":\\\"workload identity federation\\\",\\\"pagetitle\\\":\\\"workload identity federation\\\"},{\\\"path\\\":\\\"/docs/en/manage-claude/wif-admin-api\\\",\\\"sidebartitle\\\":\\"
+      }
+    ]
+  },
+  {
+    "capability": "ServiceNow OAuth application & token lifecycle management",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "client secret"
+        ],
+        "snippet": "s to your servicenow instance without storing or rotating a client secret. before you begin, make sure you have: a servicenow admin account with privileges to create oidc providers and users. y"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean ServiceNow connector about",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "OAuth application"
+        ],
+        "snippet": "authentication by utilizing a dedicated service account and oauth application glean understands all user access permissions and strictly enforces them at the time of the query, ensuring that users"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean ServiceNow connector setup",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "OAuth application",
+          "Refresh Token Lifespan",
+          "Access Token Lifespan"
+        ],
+        "snippet": "and used in both acl configurations above. 4. configure an oauth application that will provide access tokens to glean acting as the above user: ​ navigate to system oauth → application registry an"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector authentication requirements",
+        "sourceUrl": "https://docs.glean.com/connectors/connector-auth-requirements",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "OAuth application"
+        ],
+        "snippet": "(admin-authorized) servicenow dedicated service account and oauth application sharepoint on-prem ntlm service account and entra app proxy shortcut api token (workspace-level) and webhook secret sim"
+      }
+    ]
+  },
+  {
+    "capability": "Permission & ACL mapping - role-based + record-level access",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "ACL",
+          "access control lists"
+        ],
+        "snippet": "d for the required servicenow tables. access control lists (acls) are configured to allow read access for the connector. you identified the servicenow instance url. deploy the connect"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "ACL"
+        ],
+        "snippet": "metadata (like title and url), and an access control list (acl) that enforces permissions. after the content is ingested: unified index - the item becomes part of your organization’s"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Copilot connector deployment overview",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "ACL"
+        ],
+        "snippet": "items. recovering from incremental crawl failures. updating acls. modifying crawl rules. updating the connection schema. an incremental refresh processes only items that you created o"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Graph connectors API overview",
+        "sourceUrl": "https://learn.microsoft.com/en-us/graph/connecting-external-content-connectors-api-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "ACL",
+          "external groups"
+        ],
+        "snippet": "he external service can be granted or denied access through acl to different types of non-microsoft entra groups. for example, salesforce items might have permission sets and profiles"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean ServiceNow connector about",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "user_criteria_admin"
+        ],
+        "snippet": "wledge articles and knowledge bases in the global instance. user_criteria_admin required to fetch user criteria. user_admin required to fetch servicenow users catalog_admin required to fetch catalog"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean ServiceNow connector setup",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "user_criteria_admin",
+          "ACL rules"
+        ],
+        "snippet": "oles → edit... and add the following roles: knowledge_admin user_criteria_admin user_admin catalog_admin snc_read_only only add the following role if it exists in your instance: snc_internal add the"
       },
       {
         "vendor": "claude",
-        "sourceLabel": "Anthropic - Model Context Protocol",
-        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "oauth"
+          "access control"
         ],
-        "snippet": "how to implement secure authorization for mcp servers using oauth 2.1 to protect sensitive resources and operations\\\",\\\"href\\\":\\\"/docs/2026-07-28/tutorials/security/authorization\\\"},{\\\""
+        "snippet": "his is includes security measures (e.g., authentication and access controls) to protect usg interests-not for your personal benefit or privacy.\\\",\\\"ogl1h/vmmr\\\":\\\"get api key\\\",\\\"ohlygyme0y\\\":\\\""
       }
     ]
   },
   {
-    "capability": "Connector content filters and inclusion rules",
+    "capability": "Connector sync monitoring - initial sync phases & metrics",
     "records": [
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "sourceLabel": "Glean connector monitoring",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector configuration"
+          "Indexing phase",
+          "Items synced",
+          "initial sync"
         ],
-        "snippet": "construction cloud connector. follow the setup flow in the connector configuration page to authenticate autodesk construction cloud and complete the required admin configuration. after setup is complete"
+        "snippet": "roubleshoot connector health: during initial sync (crawling/indexing phases) items synced should increase over time. metrics refresh on an hourly cadence. if items synced stops increasing for 24"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector health index",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Items synced",
+          "initial sync"
+        ],
+        "snippet": "us stalls or a connector stays in indexing with no progress items synced stops growing unexpectedly during initial sync change rate stays at zero when you expect activity you receive a connect"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector settings and visibility",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Items synced",
+          "initial sync"
+        ],
+        "snippet": "tent, metadata, and permissions from the source system. the items synced count should increase over time. indexing : the connector is processing crawled content and incorporating it into the k"
       }
     ]
   },
   {
-    "capability": "Crawl frequency and scheduling setup",
+    "capability": "Connector health metrics & alerting (Crawl rate, Change rate)",
     "records": [
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceLabel": "Glean connector monitoring",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Change rate (items/day)"
+        ],
+        "snippet": "ooks and periodic crawls. return to this section to monitor change rate (items/day) and confirm that ongoing updates are flowing. use metrics for troubleshooting ​ you can use items synced and change rat"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector health index",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Crawl rate",
+          "health signals"
+        ],
+        "snippet": "it stops growing for 24 hours or more, treat it as a stall. crawl rate (during initial sync) and change rate (after initial sync) — a sustained value of zero when activity is expected indica"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector settings and visibility",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Crawl rate",
+          "Change rate (items/day)"
+        ],
+        "snippet": "ring initial sync. see crawling faq for expected timelines. crawl rate hourly rate of crawling tasks across document parts (content, metadata, permissions) during initial crawl. acts as a he"
+      }
+    ]
+  },
+  {
+    "capability": "Connector error handling & credential failure alerts",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector health index",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Connector failure alerts"
+        ],
+        "snippet": "default and repeats them daily until you resolve the issue. connector failure alerts ​ glean monitors connectors for failures such as expired credentials, failed plugin installations, or invalid domains."
+      }
+    ]
+  },
+  {
+    "capability": "Content deletion & permission sync - webhooks vs full crawl",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Copilot connector deployment overview",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "permission updates"
+        ],
+        "snippet": "new or changed data. note incremental crawls don't support permission updates. run full crawls periodically to maintain sync accuracy. crawl scheduling configure crawl frequency and timing: recurre"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean ServiceNow connector setup",
+        "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "sys_audit_delete"
+        ],
+        "snippet": "om sc_cat_item_user_criteria_no_mtom sc_category sc_catalog sys_audit_delete (if provided access) incident (if enabled) cmdb_ci_business_app (if enabled) dmn_demand (if enabled) pm_project (if ena"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean crawling deletion",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-deletion",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "webhook-based deletion",
+          "full crawl cleanup"
+        ],
+        "snippet": "deletion at the source. examples of connectors with api or webhook-based deletion are onedrive and sharepoint, google drive, box, slack, and confluence. full crawl cleanup ​ for applications without de"
+      }
+    ]
+  },
+  {
+    "capability": "Crawl scheduling - full vs incremental refresh frequency",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "full crawl",
+          "incremental crawl frequency",
+          "sync intervals"
+        ],
+        "snippet": "s . sync incremental crawl frequency: every 15 minutes sync full crawl frequency: every day after you create your connection, you can review the status (including count of indexed users &amp"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "full crawl"
+        ],
+        "snippet": "the index. admins can configure sync frequency and trigger full crawls as needed. microsoft hosts the indexing pipeline in the cloud for most connectors. after setup, the process is automat"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Copilot connector deployment overview",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "full crawl"
+        ],
+        "snippet": "ften data syncs between the source and the connector index. full crawl : syncs all data at scheduled intervals. incremental crawl : syncs only new or changed data. note incremental crawls do"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector monitoring",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "incremental crawl"
+        ],
+        "snippet": "values when activity is expected could indicate webhook or incremental crawl issues. high change rate with flat items synced may indicate heavy edit activity on existing content rather than new co"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector health index",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "full crawl",
+          "incremental crawl"
+        ],
+        "snippet": "nnector's webhook coverage, incremental crawl interval, and full crawl cadence. before reporting missing content, compare the time the content was created or modified in the source to the co"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean crawling frequency",
         "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
           "refresh rates"
         ],
         "snippet": "ectors crawl and index connectors home strategy crawl types refresh rates deletion handling limits content exclusion faq manage connectors authentication requirements connectors and the glean e"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean crawling deletion",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-deletion",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "full crawl",
+          "refresh rates"
+        ],
+        "snippet": "that send deletion notifications through apis or webhooks. full crawl cleanup — for sources without deletion notifications, or when a notification is missed. api and webhook deletion ​ for"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean connector settings and visibility",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "incremental crawl"
+        ],
+        "snippet": "extended period when you expect activity — check webhook or incremental crawl health. a connector remains in indexing for multiple days with no progress — contact glean support . search results ​ t"
       }
     ]
   },
   {
-    "capability": "Custom connector onboarding",
+    "capability": "Connector visibility controls & test group rollout",
     "records": [
       {
         "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Microsoft Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
+        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "custom connector"
+          "staged rollout",
+          "limited audience"
         ],
-        "snippet": "e, dynamic, or live data sources default connectors yes yes custom connectors yes no synced connectors synced connectors crawl and index content from external sources into microsoft graph. this in"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Connector gallery and docs",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-gallery",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "custom connector"
-        ],
-        "snippet": "connectors. developers can use the connectors api to create custom connectors. in addition, microsoft and partner organizations provide more than 100 prebuilt connectors that connect to popular mi"
+        "snippet": "ups to roll the connector out to. for more information, see staged rollout . choose create to deploy the connection. the servicenow knowledge copilot connector starts indexing content right away"
       },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors hub",
-        "sourceUrl": "https://docs.glean.com/connectors/",
+        "sourceLabel": "Glean connector monitoring",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "custom connector"
+          "test groups",
+          "visibility controls"
         ],
-        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals connectors hub on this page connectors hub glean con"
+        "snippet": "h connectors . for connector tabs, visibility controls, and test groups, see connector settings and visibility . for inclusion and exclusion rules, see excluding content . sync progress ​ the"
       },
       {
         "vendor": "glean",
-        "sourceLabel": "Glean Connectors crawling frequency",
-        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "sourceLabel": "Glean connector settings and visibility",
+        "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "custom connector"
+          "test groups",
+          "visibility controls"
         ],
-        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals crawl and index connectors strategy crawl strategy t"
-      },
-      {
-        "vendor": "claude",
-        "sourceLabel": "Anthropic - About connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "custom connector"
-        ],
-        "snippet": "aude.com/en/collections/17879441-custom-connectors\",\"name\":\"custom connectors\",\"position\":3},{\"@type\":\"listitem\",\"name\":\"get started with custom connectors using remote mcp\",\"position\":4}]} {\"@con"
+        "snippet": "of the assigned test group see results. see visibility and test groups below. remove from search results : users don't see content from this source. content overview ​ clicking into a connec"
       }
     ]
   },
   {
-    "capability": "Connector health status dashboard",
-    "records": [
-      {
-        "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "sync status"
-        ],
-        "snippet": "stay up to date through an hourly sync, and admins can view sync status or disable syncing for a repo at any time. how to access: administrators must enable for your organization. explore ski"
-      }
-    ]
-  },
-  {
-    "capability": "Crawl error diagnostics",
-    "records": []
-  },
-  {
-    "capability": "Deletion and stale-content cleanup",
-    "records": [
-      {
-        "vendor": "glean",
-        "sourceLabel": "Glean Release Notes",
-        "sourceUrl": "https://docs.glean.com/release-notes/",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "cleanup"
-        ],
-        "snippet": "projects work platform [road-909] admin features bulk agent cleanup: admin-driven inactive-agent identification and bulk delete (and lifecycle api) admins can now clean up inactive agents"
-      },
-      {
-        "vendor": "glean",
-        "sourceLabel": "Glean Connectors crawling frequency",
-        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "cleanup"
-        ],
-        "snippet": "ves deleted content, including webhook-based and full-crawl cleanup. was this page helpful? last updated on jun 30, 2026 previous home next crawl types © 2026 , glean technologies, inc."
-      }
-    ]
-  },
-  {
-    "capability": "Change-rate and crawl-rate tracking",
+    "capability": "Microsoft Graph schema, semantic labels & search attributes",
     "records": []
   }
 ]

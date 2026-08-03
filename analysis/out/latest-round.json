@@ -5,13 +5,13 @@
   "executiveMetrics": [
     {
       "label": "Overall sync capability position",
-      "value": "-55",
+      "value": "-1",
       "detail": "Weighted lead/parity score across priority sync capabilities.",
       "tone": "alert"
     },
     {
       "label": "Critical gap count",
-      "value": "6",
+      "value": "4",
       "detail": "High-severity gaps that need roadmap or evidence review.",
       "tone": "alert"
     },
@@ -23,13 +23,13 @@
     },
     {
       "label": "Evidence confidence",
-      "value": "13%",
+      "value": "62%",
       "detail": "Rows backed by at least medium confidence using explicit source matches.",
-      "tone": "alert"
+      "tone": "neutral"
     },
     {
       "label": "Changed since last review",
-      "value": "8",
+      "value": "13",
       "detail": "Rows whose derived status changed since prior generated round.",
       "tone": "alert"
     }
@@ -63,7 +63,7 @@
   ],
   "scoreRows": [
     {
-      "capability": "Native connector portfolio",
+      "capability": "ServiceNow ITSM incidents & ticket ingestion",
       "microsoft": "Supported",
       "glean": "Supported",
       "openAi": "Not evaluated",
@@ -74,7 +74,18 @@
       "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
-      "capability": "Push API and custom connectors",
+      "capability": "ServiceNow Knowledge Article support with content publishing",
+      "microsoft": "Supported",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Parity",
+      "severity": "High",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+    },
+    {
+      "capability": "APM & CMDB Business Application support",
       "microsoft": "Not evaluated",
       "glean": "Supported",
       "openAi": "Not evaluated",
@@ -85,117 +96,62 @@
       "note": "Strict evidence run 2026-08-03: 2 matched source records."
     },
     {
-      "capability": "Live and hybrid access modes",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "High",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 2 matched source records."
-    },
-    {
-      "capability": "Panopto video connector",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "Medium",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
-    },
-    {
-      "capability": "Veeva Vault connector",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "Medium",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
-    },
-    {
-      "capability": "Autodesk Construction Cloud connector",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "Medium",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
-    },
-    {
-      "capability": "NetSuite MCP support",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "Medium",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
-    },
-    {
-      "capability": "BigQuery integration with natural language",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "Medium",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
-    },
-    {
-      "capability": "Connector authentication configuration",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Supported",
-      "status": "Lag",
-      "severity": "High",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 7 matched source records."
-    },
-    {
-      "capability": "Connector content filters and inclusion rules",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "High",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
-    },
-    {
-      "capability": "Crawl frequency and scheduling setup",
-      "microsoft": "Not evaluated",
-      "glean": "Supported",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Lag",
-      "severity": "Medium",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
-    },
-    {
-      "capability": "Custom connector onboarding",
+      "capability": "SAML/OIDC authentication with federated identity",
       "microsoft": "Supported",
       "glean": "Supported",
       "openAi": "Not evaluated",
       "claude": "Supported",
       "status": "Parity",
-      "severity": "Medium",
+      "severity": "High",
       "confidence": "High",
-      "note": "Strict evidence run 2026-08-03: 5 matched source records."
+      "note": "Strict evidence run 2026-08-03: 8 matched source records."
     },
     {
-      "capability": "Connector health status dashboard",
+      "capability": "ServiceNow OAuth application & token lifecycle management",
+      "microsoft": "Supported",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Parity",
+      "severity": "High",
+      "confidence": "High",
+      "note": "Strict evidence run 2026-08-03: 4 matched source records."
+    },
+    {
+      "capability": "Permission & ACL mapping - role-based + record-level access",
+      "microsoft": "Supported",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Supported",
+      "status": "Parity",
+      "severity": "High",
+      "confidence": "High",
+      "note": "Strict evidence run 2026-08-03: 7 matched source records."
+    },
+    {
+      "capability": "Connector sync monitoring - initial sync phases & metrics",
+      "microsoft": "Not evaluated",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Lag",
+      "severity": "High",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+    },
+    {
+      "capability": "Connector health metrics & alerting (Crawl rate, Change rate)",
+      "microsoft": "Not evaluated",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Lag",
+      "severity": "High",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+    },
+    {
+      "capability": "Connector error handling & credential failure alerts",
       "microsoft": "Not evaluated",
       "glean": "Supported",
       "openAi": "Not evaluated",
@@ -206,35 +162,46 @@
       "note": "Strict evidence run 2026-08-03: 1 matched source records."
     },
     {
-      "capability": "Crawl error diagnostics",
-      "microsoft": "Not evaluated",
-      "glean": "Not evaluated",
-      "openAi": "Not evaluated",
-      "claude": "Not evaluated",
-      "status": "Not evaluated",
-      "severity": "High",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 0 matched source records."
-    },
-    {
-      "capability": "Deletion and stale-content cleanup",
-      "microsoft": "Not evaluated",
+      "capability": "Content deletion & permission sync - webhooks vs full crawl",
+      "microsoft": "Supported",
       "glean": "Supported",
       "openAi": "Not evaluated",
       "claude": "Not evaluated",
-      "status": "Lag",
+      "status": "Parity",
       "severity": "High",
-      "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
-      "capability": "Change-rate and crawl-rate tracking",
+      "capability": "Crawl scheduling - full vs incremental refresh frequency",
+      "microsoft": "Supported",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Parity",
+      "severity": "High",
+      "confidence": "High",
+      "note": "Strict evidence run 2026-08-03: 8 matched source records."
+    },
+    {
+      "capability": "Connector visibility controls & test group rollout",
+      "microsoft": "Supported",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Parity",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+    },
+    {
+      "capability": "Microsoft Graph schema, semantic labels & search attributes",
       "microsoft": "Not evaluated",
       "glean": "Not evaluated",
       "openAi": "Not evaluated",
       "claude": "Not evaluated",
       "status": "Not evaluated",
-      "severity": "Medium",
+      "severity": "High",
       "confidence": "Low",
       "note": "Strict evidence run 2026-08-03: 0 matched source records."
     }
