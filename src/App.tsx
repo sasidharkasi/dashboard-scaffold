@@ -17,8 +17,8 @@ function App() {
 
   return (
     <main className="clean-shell">
-      <h1>Glean-Pivot Capability Gap View</h1>
-      <p className="subhead">All rows are Glean baseline capabilities grouped by category. Focus: where Copilot is missing.</p>
+      <h1>Synced Connector Capability Gap View</h1>
+      <p className="subhead">Scope is limited to synced connector capabilities only. Focus: where Copilot is missing.</p>
 
       {categories.map(([category, rows]) => {
         const missingCount = rows.filter((row) => row.missingInCopilot === 'Yes').length
