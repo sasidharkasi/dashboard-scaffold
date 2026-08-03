@@ -30,9 +30,9 @@ export const analysisCurrent: AnalysisRound = {
     },
     {
       "label": "Changed since last review",
-      "value": "6",
+      "value": "0",
       "detail": "Rows whose derived status changed since prior generated round.",
-      "tone": "alert"
+      "tone": "neutral"
     }
   ],
   "capabilityGroups": [
