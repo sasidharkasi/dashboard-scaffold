@@ -1,6 +1,6 @@
 [
   {
-    "capability": "ServiceNow KB synced connector",
+    "capability": "Asana connector",
     "records": [
       {
         "vendor": "microsoft",
@@ -18,51 +18,14 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "servicenow",
           "connector"
         ],
-        "snippet": "rk file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azure services, sql/oracle databases, sap. other platforms - workday, zendesk, jira, and more. to use a"
-      },
-      {
-        "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector",
-          "mcp"
-        ],
-        "snippet": ",\"item\":\"https://support.claude.com/en/collections/15399129-connectors\",\"name\":\"connectors\",\"position\":2},{\"@type\":\"listitem\",\"item\":\"https://support.claude.com/en/collections/17879441-cust"
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
       }
     ]
   },
   {
-    "capability": "Incremental sync",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "crawl"
-        ],
-        "snippet": "ustom connectors yes no synced connectors synced connectors crawl and index content from external sources into microsoft graph. this indexed data is discoverable in copilot and microsof"
-      },
-      {
-        "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "mcp"
-        ],
-        "snippet": "em\",\"name\":\"get started with custom connectors using remote mcp\",\"position\":4}]} {\"@context\":\"https://schema.org\",\"@type\":\"article\",\"description\":\"\",\"headline\":\"get started with custo"
-      }
-    ]
-  },
-  {
-    "capability": "Permission freshness",
+    "capability": "Box connector",
     "records": [
       {
         "vendor": "microsoft",
@@ -70,9 +33,10 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "permissions"
+          "box",
+          "connector"
         ],
-        "snippet": "nd deploying a file collaboration in sharepoint and sharing permissions in the sharepoint modern experience . administrators can choose to exclude files from semantic indexing by reviewing th"
+        "snippet": "ed responses can utilize semantic understanding of user mailbox and file types listed in the following table, with more file types supported over time. in addition to content from sup"
       },
       {
         "vendor": "microsoft",
@@ -80,10 +44,10 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "permissions",
-          "acl"
+          "box",
+          "connector"
         ],
-        "snippet": "d-based (saas) and on-premises data sources. respect source permissions; users only access content for which they have appropriate permissions. microsoft and ecosystem partners provide a wide"
+        "snippet": "services, including: file sharing and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, service"
       },
       {
         "vendor": "claude",
@@ -91,15 +55,14 @@
         "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "permission",
-          "security"
+          "box"
         ],
-        "snippet": "potentially modify data within those services based on your permissions. it’s important to make sure you’re only connecting to remote mcp servers that you trust and that you’re aware of clau"
+        "snippet": "icker.reaction.smiley.aria_label\":\"smiley reaction\",\"search.box_placeholder_fin\":\"ask a question\",\"search.box_placeholder\":\"search for articles...\",\"search.clear_search\":\"clear search"
       }
     ]
   },
   {
-    "capability": "Schema configuration",
+    "capability": "Confluence connector",
     "records": [
       {
         "vendor": "microsoft",
@@ -117,26 +80,15 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "schema",
+          "confluence",
           "connector"
         ],
-        "snippet": "uilding a custom connector requires a developer to define a schema, register the connection in microsoft entra id, and write code to pull and push data. for on-premises sources, you can"
-      },
-      {
-        "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "mcp",
-          "tool"
-        ],
-        "snippet": "em\",\"name\":\"get started with custom connectors using remote mcp\",\"position\":4}]} {\"@context\":\"https://schema.org\",\"@type\":\"article\",\"description\":\"\",\"headline\":\"get started with custo"
+        "snippet": "haring and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azure services,"
       }
     ]
   },
   {
-    "capability": "Index browser and crawl diagnostics",
+    "capability": "Dropbox connector",
     "records": [
       {
         "vendor": "microsoft",
@@ -144,9 +96,9 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "index"
+          "connector"
         ],
-        "snippet": "semantic indexing for microsoft 365 copilot | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); var the"
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
       },
       {
         "vendor": "microsoft",
@@ -154,25 +106,15 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "index",
-          "crawl"
+          "dropbox",
+          "connector"
         ],
-        "snippet": "to data beyond microsoft 365. your organization can either index external data by using synced connectors or connect to data in real time by using federated connectors . this flexibili"
-      },
-      {
-        "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "search"
-        ],
-        "snippet": "dius: 14px; --card-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); --search-bar-border-radius: 10px; --search-bar-width: 100%; --ticket-blue-bg-color: #dce1f9; --ticket-blue-text-color: #334bfa;"
+        "snippet": "ices, including: file sharing and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, servicenow, dyna"
       }
     ]
   },
   {
-    "capability": "External group ACL support",
+    "capability": "GitHub connector",
     "records": [
       {
         "vendor": "microsoft",
@@ -180,9 +122,10 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "group"
+          "github",
+          "connector"
         ],
-        "snippet": "evant people that would have been derived from distribution groups or from the organizational chart. people insights provide a list of relevant people to a user based on their public co"
+        "snippet": "eedbackhelplinkurl\": \"\", \"feedbacksystem\": \"none\", \"feedbackgithubrepo\": \"\", \"feedbackproducturl\": \"\", \"extendbreadcrumb\": true, \"iseditdisplayable\": false, \"isprivateunauthorized\": fals"
       },
       {
         "vendor": "microsoft",
@@ -190,9 +133,10 @@
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "acl"
+          "github",
+          "connector"
         ],
-        "snippet": "metadata (like title and url), and an access control list (acl) that enforces permissions. after the content is ingested: unified index - the item becomes part of your organization’s"
+        "snippet": "ackhelplinkurl\": \"\", \"feedbacksystem\": \"standard\", \"feedbackgithubrepo\": \"\", \"feedbackproducturl\": \"\", \"extendbreadcrumb\": false, \"iseditdisplayable\": true, \"isprivateunauthorized\": fals"
       },
       {
         "vendor": "claude",
@@ -200,10 +144,514 @@
         "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "group",
-          "permission"
+          "github"
         ],
-        "snippet": "m/terms\",\"sort_order\":1,\"link_location\":\"footer\",\"site_link_group_id\":35050},{\"id\":51277,\"help_center_site_id\":3634723,\"title\":\"product\",\"url\":\"https://www.anthropic.com/product\",\"sort_"
+        "snippet": "o our vulnerability disclosure program , and choose https://github.com/modelcontextprotocol as the asset. taking actions with tools remote mcp servers give claude tools it can invoke dur"
+      }
+    ]
+  },
+  {
+    "capability": "GitLab connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Gmail connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Gong connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Google Calendar connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Google Drive connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "google drive",
+          "connector"
+        ],
+        "snippet": "luding: file sharing and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azur"
+      }
+    ]
+  },
+  {
+    "capability": "Jira connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "jira",
+          "connector"
+        ],
+        "snippet": "/oracle databases, sap. other platforms - workday, zendesk, jira, and more. to use a prebuilt connector, select the connector in the microsoft 365 admin center, provide credentials and"
+      }
+    ]
+  },
+  {
+    "capability": "Microsoft 365 connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "microsoft 365",
+          "connector"
+        ],
+        "snippet": "semantic indexing for microsoft 365 copilot | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); var theme = /^(light|dark|hi"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "microsoft 365",
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); var theme = /^(li"
+      }
+    ]
+  },
+  {
+    "capability": "Notion connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "OneDrive connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Outlook connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "outlook",
+          "connector"
+        ],
+        "snippet": "al copilot chat experience in microsoft 365 copilot, teams, outlook, and other microsoft 365 apps use connector content to respond to user queries. when users ask questions or request hel"
+      }
+    ]
+  },
+  {
+    "capability": "PagerDuty connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Salesforce connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "salesforce",
+          "connector"
+        ],
+        "snippet": "awiki, network file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azure services, sql/oracle databases, sap. other platforms - workday, zendesk, jira, and mor"
+      }
+    ]
+  },
+  {
+    "capability": "SharePoint connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "sharepoint",
+          "connector"
+        ],
+        "snippet": "copilot, without adding complexity. when a user attaches a sharepoint document library or folder, or provides its url in a copilot prompt, the grounding step includes that scope and uses th"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "sharepoint",
+          "connector"
+        ],
+        "snippet": "xternal content through microsoft search across office.com, sharepoint, outlook, teams, bing (work account), and other apps. connectors enhance the microsoft search experience with the follo"
+      }
+    ]
+  },
+  {
+    "capability": "Slack connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Slack Real Time Search connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      }
+    ]
+  },
+  {
+    "capability": "Teams connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "teams",
+          "connector"
+        ],
+        "snippet": "rsational copilot chat experience in microsoft 365 copilot, teams, outlook, and other microsoft 365 apps use connector content to respond to user queries. when users ask questions or re"
+      }
+    ]
+  },
+  {
+    "capability": "Website connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "website"
+        ],
+        "snippet": "ype\":1}},\"brand\":{\"colors\":[\"#cc785c\",\"#191919\",\"#f0f0eb\"],\"websiteurl\":\"http://anthropic.com\"},\"secondarycolor\":null,\"accentroles\":{\"link\":null,\"button\":null},\"showdottexture\":null,\"show"
+      }
+    ]
+  },
+  {
+    "capability": "Zendesk connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "zendesk",
+          "connector"
+        ],
+        "snippet": "ices, sql/oracle databases, sap. other platforms - workday, zendesk, jira, and more. to use a prebuilt connector, select the connector in the microsoft 365 admin center, provide credentia"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic Claude connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "zendesk"
+        ],
+        "snippet": "-h2b-button{background-color:var(--primary-color);border:0}.zendesk-article table{overflow-x:scroll!important;display:block!important;height:auto!important}.intercom-interblocks-unordered"
+      }
+    ]
+  },
+  {
+    "capability": "Zoom connector",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector"
+        ],
+        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
       }
     ]
   }

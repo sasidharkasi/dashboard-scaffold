@@ -9,37 +9,145 @@ export type CapabilityRow = {
 
 export const capabilityRows: CapabilityRow[] = [
   {
-    "capability": "ServiceNow KB synced connector",
+    "capability": "Asana connector",
     "gleanBaseline": "Yes",
     "copilotConnectors": "Yes",
     "missingInCopilot": "No"
   },
   {
-    "capability": "Incremental sync",
+    "capability": "Box connector",
     "gleanBaseline": "Yes",
     "copilotConnectors": "Yes",
     "missingInCopilot": "No"
   },
   {
-    "capability": "Permission freshness",
+    "capability": "Confluence connector",
     "gleanBaseline": "Yes",
     "copilotConnectors": "Yes",
     "missingInCopilot": "No"
   },
   {
-    "capability": "Schema configuration",
+    "capability": "Dropbox connector",
     "gleanBaseline": "Yes",
     "copilotConnectors": "Yes",
     "missingInCopilot": "No"
   },
   {
-    "capability": "Index browser and crawl diagnostics",
+    "capability": "GitHub connector",
     "gleanBaseline": "Yes",
     "copilotConnectors": "Yes",
     "missingInCopilot": "No"
   },
   {
-    "capability": "External group ACL support",
+    "capability": "GitLab connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Gmail connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Gong connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Google Calendar connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Google Drive connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Jira connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Microsoft 365 connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Notion connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "OneDrive connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Outlook connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "PagerDuty connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Salesforce connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "SharePoint connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Slack connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Slack Real Time Search connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Teams connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Website connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Zendesk connector",
+    "gleanBaseline": "Yes",
+    "copilotConnectors": "Yes",
+    "missingInCopilot": "No"
+  },
+  {
+    "capability": "Zoom connector",
     "gleanBaseline": "Yes",
     "copilotConnectors": "Yes",
     "missingInCopilot": "No"

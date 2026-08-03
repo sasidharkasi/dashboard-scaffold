@@ -7,7 +7,7 @@ export const analysisCurrent: AnalysisRound = {
   "executiveMetrics": [
     {
       "label": "Overall sync capability position",
-      "value": "+7",
+      "value": "+10",
       "detail": "Weighted lead/parity score across priority sync capabilities.",
       "tone": "strong"
     },
@@ -31,9 +31,9 @@ export const analysisCurrent: AnalysisRound = {
     },
     {
       "label": "Changed since last review",
-      "value": "0",
+      "value": "24",
       "detail": "Rows whose derived status changed since prior generated round.",
-      "tone": "neutral"
+      "tone": "alert"
     }
   ],
   "capabilityGroups": [
@@ -65,29 +65,51 @@ export const analysisCurrent: AnalysisRound = {
   ],
   "scoreRows": [
     {
-      "capability": "ServiceNow KB synced connector",
+      "capability": "Asana connector",
       "microsoft": "Supported",
       "glean": "Not evaluated",
       "openAi": "Not evaluated",
-      "claude": "Capability difference",
-      "status": "Capability difference",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Box connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Supported",
+      "status": "Parity",
       "severity": "Medium",
       "confidence": "Medium",
       "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
-      "capability": "Incremental sync",
+      "capability": "Confluence connector",
       "microsoft": "Supported",
       "glean": "Not evaluated",
       "openAi": "Not evaluated",
-      "claude": "Capability difference",
-      "status": "Capability difference",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
       "severity": "High",
       "confidence": "Medium",
       "note": "Strict evidence run 2026-08-03: 2 matched source records."
     },
     {
-      "capability": "Permission freshness",
+      "capability": "Dropbox connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "GitHub connector",
       "microsoft": "Supported",
       "glean": "Not evaluated",
       "openAi": "Not evaluated",
@@ -98,29 +120,194 @@ export const analysisCurrent: AnalysisRound = {
       "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
-      "capability": "Schema configuration",
+      "capability": "GitLab connector",
       "microsoft": "Supported",
       "glean": "Not evaluated",
       "openAi": "Not evaluated",
-      "claude": "Capability difference",
-      "status": "Capability difference",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Gmail connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Gong connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Google Calendar connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Google Drive connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "High",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Jira connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "High",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Microsoft 365 connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Notion connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "OneDrive connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Outlook connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "PagerDuty connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Low",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Salesforce connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "High",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "SharePoint connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "High",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Slack connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "High",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Slack Real Time Search connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Teams connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Website connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Supported",
+      "status": "Parity",
       "severity": "Medium",
       "confidence": "Medium",
       "note": "Strict evidence run 2026-08-03: 3 matched source records."
     },
     {
-      "capability": "Index browser and crawl diagnostics",
-      "microsoft": "Supported",
-      "glean": "Not evaluated",
-      "openAi": "Not evaluated",
-      "claude": "Supported",
-      "status": "Parity",
-      "severity": "Low",
-      "confidence": "Medium",
-      "note": "Strict evidence run 2026-08-03: 3 matched source records."
-    },
-    {
-      "capability": "External group ACL support",
+      "capability": "Zendesk connector",
       "microsoft": "Supported",
       "glean": "Not evaluated",
       "openAi": "Not evaluated",
@@ -129,6 +316,17 @@ export const analysisCurrent: AnalysisRound = {
       "severity": "High",
       "confidence": "Medium",
       "note": "Strict evidence run 2026-08-03: 3 matched source records."
+    },
+    {
+      "capability": "Zoom connector",
+      "microsoft": "Supported",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
     }
   ],
   "domains": [

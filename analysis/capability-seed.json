@@ -1,61 +1,241 @@
 [
   {
-    "capability": "ServiceNow KB synced connector",
+    "capability": "Asana connector",
     "severity": "Medium",
-    "microsoftKeywords": ["servicenow", "connector"],
-    "gleanKeywords": ["servicenow"],
-    "openaiKeywords": ["connector", "apps"],
-    "claudeKeywords": ["connector", "mcp"],
-    "syncNuanceForOpenAi": true,
-    "syncNuanceForClaude": true
-  },
-  {
-    "capability": "Incremental sync",
-    "severity": "High",
-    "microsoftKeywords": ["incremental", "crawl"],
-    "gleanKeywords": ["sync"],
-    "openaiKeywords": ["sync", "search"],
-    "claudeKeywords": ["mcp", "retrieve"],
-    "syncNuanceForOpenAi": true,
-    "syncNuanceForClaude": true
-  },
-  {
-    "capability": "Permission freshness",
-    "severity": "High",
-    "microsoftKeywords": ["permissions", "acl"],
-    "gleanKeywords": ["permissions", "access"],
-    "openaiKeywords": ["permission", "security"],
-    "claudeKeywords": ["permission", "security"],
+    "microsoftKeywords": ["asana", "connector"],
+    "gleanKeywords": ["asana"],
+    "openaiKeywords": ["asana"],
+    "claudeKeywords": ["asana"],
     "syncNuanceForOpenAi": false,
     "syncNuanceForClaude": false
   },
   {
-    "capability": "Schema configuration",
+    "capability": "Box connector",
     "severity": "Medium",
-    "microsoftKeywords": ["schema", "connector"],
-    "gleanKeywords": ["schema", "metadata"],
-    "openaiKeywords": ["apps", "actions"],
-    "claudeKeywords": ["mcp", "tool"],
-    "syncNuanceForOpenAi": true,
-    "syncNuanceForClaude": true
+    "microsoftKeywords": ["box", "connector"],
+    "gleanKeywords": ["box"],
+    "openaiKeywords": ["box"],
+    "claudeKeywords": ["box"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
   },
   {
-    "capability": "Index browser and crawl diagnostics",
+    "capability": "Confluence connector",
+    "severity": "High",
+    "microsoftKeywords": ["confluence", "connector"],
+    "gleanKeywords": ["confluence"],
+    "openaiKeywords": ["confluence"],
+    "claudeKeywords": ["confluence"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Dropbox connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["dropbox", "connector"],
+    "gleanKeywords": ["dropbox"],
+    "openaiKeywords": ["dropbox"],
+    "claudeKeywords": ["dropbox"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "GitHub connector",
+    "severity": "High",
+    "microsoftKeywords": ["github", "connector"],
+    "gleanKeywords": ["github"],
+    "openaiKeywords": ["github"],
+    "claudeKeywords": ["github"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "GitLab connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["gitlab", "connector"],
+    "gleanKeywords": ["gitlab"],
+    "openaiKeywords": ["gitlab"],
+    "claudeKeywords": ["gitlab"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Gmail connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["gmail", "connector"],
+    "gleanKeywords": ["gmail"],
+    "openaiKeywords": ["gmail"],
+    "claudeKeywords": ["gmail"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Gong connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["gong", "connector"],
+    "gleanKeywords": ["gong"],
+    "openaiKeywords": ["gong"],
+    "claudeKeywords": ["gong"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Google Calendar connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["google calendar", "connector"],
+    "gleanKeywords": ["google calendar"],
+    "openaiKeywords": ["google calendar"],
+    "claudeKeywords": ["google calendar"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Google Drive connector",
+    "severity": "High",
+    "microsoftKeywords": ["google drive", "gdrive", "connector"],
+    "gleanKeywords": ["google drive", "gdrive"],
+    "openaiKeywords": ["google drive"],
+    "claudeKeywords": ["google drive"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Jira connector",
+    "severity": "High",
+    "microsoftKeywords": ["jira", "connector"],
+    "gleanKeywords": ["jira"],
+    "openaiKeywords": ["jira"],
+    "claudeKeywords": ["jira"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Microsoft 365 connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["microsoft 365", "connector"],
+    "gleanKeywords": ["microsoft 365"],
+    "openaiKeywords": ["microsoft 365"],
+    "claudeKeywords": ["microsoft 365"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Notion connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["notion", "connector"],
+    "gleanKeywords": ["notion"],
+    "openaiKeywords": ["notion"],
+    "claudeKeywords": ["notion"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "OneDrive connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["onedrive", "connector"],
+    "gleanKeywords": ["onedrive"],
+    "openaiKeywords": ["onedrive"],
+    "claudeKeywords": ["onedrive"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Outlook connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["outlook", "connector"],
+    "gleanKeywords": ["outlook"],
+    "openaiKeywords": ["outlook"],
+    "claudeKeywords": ["outlook"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "PagerDuty connector",
     "severity": "Low",
-    "microsoftKeywords": ["index", "crawl"],
-    "gleanKeywords": ["search", "index"],
-    "openaiKeywords": ["search"],
-    "claudeKeywords": ["search"],
+    "microsoftKeywords": ["pagerduty", "connector"],
+    "gleanKeywords": ["pagerduty"],
+    "openaiKeywords": ["pagerduty"],
+    "claudeKeywords": ["pagerduty"],
     "syncNuanceForOpenAi": false,
     "syncNuanceForClaude": false
   },
   {
-    "capability": "External group ACL support",
+    "capability": "Salesforce connector",
     "severity": "High",
-    "microsoftKeywords": ["group", "acl"],
-    "gleanKeywords": ["group", "permission"],
-    "openaiKeywords": ["group", "permission"],
-    "claudeKeywords": ["group", "permission"],
+    "microsoftKeywords": ["salesforce", "connector"],
+    "gleanKeywords": ["salesforce"],
+    "openaiKeywords": ["salesforce"],
+    "claudeKeywords": ["salesforce"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "SharePoint connector",
+    "severity": "High",
+    "microsoftKeywords": ["sharepoint", "connector"],
+    "gleanKeywords": ["sharepoint"],
+    "openaiKeywords": ["sharepoint"],
+    "claudeKeywords": ["sharepoint"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Slack connector",
+    "severity": "High",
+    "microsoftKeywords": ["slack", "connector"],
+    "gleanKeywords": ["slack"],
+    "openaiKeywords": ["slack"],
+    "claudeKeywords": ["slack"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Slack Real Time Search connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["slack real time", "connector"],
+    "gleanKeywords": ["slack real time"],
+    "openaiKeywords": ["slack"],
+    "claudeKeywords": ["slack"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Teams connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["teams", "connector"],
+    "gleanKeywords": ["teams"],
+    "openaiKeywords": ["teams"],
+    "claudeKeywords": ["teams"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Website connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["website", "connector"],
+    "gleanKeywords": ["website"],
+    "openaiKeywords": ["website"],
+    "claudeKeywords": ["website"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Zendesk connector",
+    "severity": "High",
+    "microsoftKeywords": ["zendesk", "connector"],
+    "gleanKeywords": ["zendesk"],
+    "openaiKeywords": ["zendesk"],
+    "claudeKeywords": ["zendesk"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Zoom connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["zoom", "connector"],
+    "gleanKeywords": ["zoom"],
+    "openaiKeywords": ["zoom"],
+    "claudeKeywords": ["zoom"],
     "syncNuanceForOpenAi": false,
     "syncNuanceForClaude": false
   }
