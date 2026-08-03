@@ -515,14 +515,16 @@ async function main() {
     const missing = copilot === 'Yes' ? 'No' : 'Yes'
 
     return {
+      category: seed.category || 'Uncategorized',
       capability: seed.capability,
       gleanBaseline: 'Yes',
       copilotConnectors: copilot,
       missingInCopilot: missing,
+      evidenceUrl: seed.evidenceUrl || '',
     }
   })
 
-  const capabilityTs = `export type Binary = 'Yes' | 'No'\n\nexport type CapabilityRow = {\n  capability: string\n  gleanBaseline: Binary\n  copilotConnectors: Binary\n  missingInCopilot: Binary\n}\n\nexport const capabilityRows: CapabilityRow[] = ${JSON.stringify(gleanPivotRows, null, 2)}\n`
+  const capabilityTs = `export type Binary = 'Yes' | 'No'\n\nexport type CapabilityRow = {\n  category: string\n  capability: string\n  gleanBaseline: Binary\n  copilotConnectors: Binary\n  missingInCopilot: Binary\n  evidenceUrl: string\n}\n\nexport const capabilityRows: CapabilityRow[] = ${JSON.stringify(gleanPivotRows, null, 2)}\n`
 
   await fs.writeFile(outputTsPath, outputTs, 'utf8')
   await fs.writeFile(outputJsonPath, JSON.stringify(analysisRound, null, 2), 'utf8')

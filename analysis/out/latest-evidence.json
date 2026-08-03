@@ -1,657 +1,1503 @@
 [
   {
-    "capability": "Asana connector",
+    "capability": "Native connector portfolio",
     "records": [
       {
         "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "sourceLabel": "Microsoft Learn - Connector gallery and docs",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-gallery",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "Microsoft 365 connectors"
         ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+        "snippet": "built and supported by microsoft partners. related content microsoft 365 connectors overview deployment overview feedback was this page helpful? yes no no need help with this topic? want to try using ask"
       },
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "native connectors",
+          "connector types"
         ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+        "snippet": "ctors and the glean experience key terms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals connectors hub o"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "native connectors"
+        ],
+        "snippet": "ctors and the glean experience key terms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals crawl and index"
       }
     ]
   },
   {
-    "capability": "Box connector",
+    "capability": "Push API and custom connectors",
     "records": [
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "box",
-          "connector"
+          "custom connectors"
         ],
-        "snippet": "ed responses can utilize semantic understanding of user mailbox and file types listed in the following table, with more file types supported over time. in addition to content from sup"
+        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals connectors hub on this page connectors hub glean conn"
       },
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "box",
-          "connector"
+          "custom connectors"
         ],
-        "snippet": "services, including: file sharing and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, service"
+        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals crawl and index connectors strategy crawl strategy th"
+      }
+    ]
+  },
+  {
+    "capability": "Live and hybrid access modes",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "federated search"
+        ],
+        "snippet": "explore real-time voice in glean assistant [road-1370] o365 federated search: container filter facets and gst facet parity o365 federated search now supports container filters for sharepoint and o"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "hybrid access"
+        ],
+        "snippet": "ectors are, the connector types, and how indexed, live, and hybrid access differ. custom connectors index content from proprietary or less common sources that lack a native connector, using gle"
+      }
+    ]
+  },
+  {
+    "capability": "Panopto video connector",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Panopto connector"
+        ],
+        "snippet": "utodesk construction cloud connector connectors [road-1326] panopto connector the panopto connector enables organizations to seamlessly integrate panopto video content into glean, making it easy to"
+      }
+    ]
+  },
+  {
+    "capability": "Veeva Vault connector",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Veeva Vault",
+          "quality documents"
+        ],
+        "snippet": "he web crawler connector. learn more connectors [road-1399] veeva vault connector glean now includes a native veeva vault connector, so admins can make veeva vault quality documents searchabl"
+      }
+    ]
+  },
+  {
+    "capability": "Autodesk Construction Cloud connector",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "project knowledge"
+        ],
+        "snippet": "nstruction, architecture, engineering, and owner teams find project knowledge faster, discover related work across projects, and support compliance, audit, and onboarding workflows from one place."
+      }
+    ]
+  },
+  {
+    "capability": "NetSuite MCP support",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "NetSuite MCP",
+          "action pack"
+        ],
+        "snippet": "nt flow in their browser. learn more connectors [road-1448] netsuite mcp support netsuite mcp support lets teams use glean assistant and agents to run live, permission-aware workflows against"
+      }
+    ]
+  },
+  {
+    "capability": "BigQuery integration with natural language",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "BigQuery MCP"
+        ],
+        "snippet": "sql glean assistant can now query bigquery directly through bigquery mcp, google's official mcp server for bigquery, so users can ask questions in natural language or run sql against approved"
+      }
+    ]
+  },
+  {
+    "capability": "Multi-phase crawling and indexing",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "crawl strategy",
+          "people data crawl"
+        ],
+        "snippet": "crawl strategy {\"@context\":\"https://schema.org\",\"@type\":\"breadcrumblist\",\"itemlistelement\":[{\"@type\":\"listitem\",\"item\":\"https://docs.g"
+      }
+    ]
+  },
+  {
+    "capability": "Webhook-based real-time updates",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "webhooks"
+        ],
+        "snippet": "ue glean tenant id. it's used for login, search, crawling , webhooks, and api interactions, so you'll need it when setting up sso or connectors. glean usually includes your tenant id in th"
+      }
+    ]
+  },
+  {
+    "capability": "Change rate and crawl rate monitoring",
+    "records": []
+  },
+  {
+    "capability": "Deletion handling and cleanup",
+    "records": []
+  },
+  {
+    "capability": "Crawl scheduling and frequency control",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "refresh rates"
+        ],
+        "snippet": "ectors crawl and index connectors home strategy crawl types refresh rates deletion handling limits content exclusion faq manage connectors authentication requirements connectors and the glean e"
+      }
+    ]
+  },
+  {
+    "capability": "Permission mirroring enforcement",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "source permissions"
+        ],
+        "snippet": "related project content directly in glean while respecting source permissions. this helps construction, architecture, engineering, and owner teams find project knowledge faster, discover related wo"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "permission mirroring",
+          "least privilege"
+        ],
+        "snippet": "s glean's security model is built on three core principles: permission mirroring : mirror source-system permissions so users never see data they shouldn't centralized administration : set policy once"
+      }
+    ]
+  },
+  {
+    "capability": "Role-based access control (RBAC)",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "admin roles",
+          "Full Admin",
+          "Moderator role"
+        ],
+        "snippet": "n. admins can create and manage shared skills, assign skill admin roles, and govern org-wide skills through the capabilities tab and admin console. end users can create personal skills and us"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "RBAC",
+          "admin roles",
+          "Setup Admin",
+          "Full Admin"
+        ],
+        "snippet": "edicated project. key features ​ role based access control (rbac): admins can manage what permissions users have using the admin console. they can grant a user permission to moderate c"
+      }
+    ]
+  },
+  {
+    "capability": "Tool and action-level access controls",
+    "records": []
+  },
+  {
+    "capability": "MCP server moderator role",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP Server Moderator",
+          "MCP insights"
+        ],
+        "snippet": "er administration without giving full admin access. the new mcp server moderator role lets designated users create and manage mcp servers and view mcp insights, making it easier to put ownership close"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP insights"
+        ],
+        "snippet": "nd managers assistant insights llm insights agents insights mcp insights embedded integrations announcements monitoring and alerts alerts audit logs glean customer event logs overview event sc"
+      }
+    ]
+  },
+  {
+    "capability": "Audit logging and traceability",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "audit logs",
+          "admin audit",
+          "customer event logs"
+        ],
+        "snippet": "ctices for scheduled triggers agents for detailed guidance. audit logs ​ admin audit logs capture administrative actions performed within your glean instance, including changes to connectors"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "audit logs",
+          "customer event logs"
+        ],
+        "snippet": "ded integrations announcements monitoring and alerts alerts audit logs glean customer event logs overview event schemas workflowrun event log queries general about the admin console on this"
+      }
+    ]
+  },
+  {
+    "capability": "Permission-aware sharing for chats",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "permission-aware sharing"
+        ],
+        "snippet": "ever grants broader access than the source system provides. permission-aware sharing ​ when a user shares a chat conversation, each recipient still only sees the sources they're individually authorized to"
+      }
+    ]
+  },
+  {
+    "capability": "Human-in-the-loop write action confirmations",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "human-in-the-loop",
+          "confirmation panel",
+          "inline editing"
+        ],
+        "snippet": "control ​ glean provides two layers of operational control: human-in-the-loop confirmations for write operations, and comprehensive audit logging for administrative actions. human-in-the-loop confi"
+      }
+    ]
+  },
+  {
+    "capability": "Admin console centralized management",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Admin console"
+        ],
+        "snippet": "latforms. admins register external a2a agent servers in the admin console with oauth credentials, and agent builders can add those external agents as sub-agents in plan & execute and auto mode"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Admin console",
+          "centralized administration",
+          "control plane"
+        ],
+        "snippet": "ces networking glean ip ranges admin vpn setup in the glean admin console monitoring probe customer-hosted deployment customer-hosted deployment gcp aws troubleshoot customer-hosted deployment"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Admin console"
+        ],
+        "snippet": "about the admin console {\"@context\":\"https://schema.org\",\"@type\":\"breadcrumblist\",\"itemlistelement\":[{\"@type\":\"listitem\",\"item\":\"https://docs.g"
+      }
+    ]
+  },
+  {
+    "capability": "Connector configuration and management",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector setup"
+        ],
+        "snippet": "tors custom connectors configure actions configure tools in connector setup fundamentals connectors hub on this page connectors hub glean connectors bring content from your company's apps into gl"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector setup"
+        ],
+        "snippet": "tors custom connectors configure actions configure tools in connector setup fundamentals crawl and index connectors strategy crawl strategy the glean crawling system retrieves and indexes content"
+      }
+    ]
+  },
+  {
+    "capability": "OAuth and SSO configuration",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "OAuth",
+          "SSO",
+          "authentication"
+        ],
+        "snippet": "gister external a2a agent servers in the admin console with oauth credentials, and agent builders can add those external agents as sub-agents in plan & execute and auto mode workflows."
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "authentication"
+        ],
+        "snippet": "out connectors crawl and index connectors manage connectors authentication requirements connectors and the glean experience key terms connectors by type native connectors partner connectors cust"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "authentication"
+        ],
+        "snippet": "ion handling limits content exclusion faq manage connectors authentication requirements connectors and the glean experience key terms connectors by type native connectors partner connectors cust"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "OAuth",
+          "SSO",
+          "Identity Provider",
+          "IdP",
+          "authentication"
+        ],
+        "snippet": "ills tools tools overview set up tools managing tools tools oauth reference connect remote mcp servers to glean custom mcp headers supported remote mcp servers glean mcp server about gl"
+      }
+    ]
+  },
+  {
+    "capability": "LLM model hub configuration",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Model Hub",
+          "model selection"
+        ],
+        "snippet": "can select it. in the admin console, go to platform → llms (model hub), make sure your anthropic provider configuration is set up, and turn on the claude opus 5 model for assistant and agen"
+      }
+    ]
+  },
+  {
+    "capability": "Tool and MCP server setup",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server"
+        ],
+        "snippet": "y bigquery directly through bigquery mcp, google's official mcp server for bigquery, so users can ask questions in natural language or run sql against approved projects and datasets without"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server"
+        ],
+        "snippet": "the run, regardless of who created or published the agent. mcp servers : results returned through the model context protocol respect the authenticated user's permissions. embedded integrati"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server"
+        ],
+        "snippet": "p tools managing tools tools oauth reference connect remote mcp servers to glean custom mcp headers supported remote mcp servers glean mcp server about glean mcp server glean mcp gateway set"
+      }
+    ]
+  },
+  {
+    "capability": "Admin Chat assistant",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "troubleshooting"
+        ],
+        "snippet": "admins connectors tools admin guide security & architecture troubleshooting release notes release notes product and feature retirements releases release notes release notes welcome to the glean r"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "troubleshooting"
+        ],
+        "snippet": "admins connectors tools admin guide security & architecture troubleshooting release notes fundamentals connectors hub get started about connectors crawl and index connectors manage connectors aut"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "troubleshooting"
+        ],
+        "snippet": "admins connectors tools admin guide security & architecture troubleshooting release notes fundamentals connectors hub get started about connectors crawl and index connectors home strategy crawl t"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "troubleshooting"
+        ],
+        "snippet": "admins connectors tools admin guide security & architecture troubleshooting release notes security & architecture security & architecture hub core security principles best practices secure config"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Admin Chat",
+          "troubleshooting"
+        ],
+        "snippet": "e, and who are actively using glean - all in a single view. admin chat ​ admin chat is an embedded, admin-focused chat experience in the admin console. it helps you configure, operate, and t"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Agent docs",
+        "sourceUrl": "https://docs.glean.com/agents/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "troubleshooting"
+        ],
+        "snippet": "admins connectors tools admin guide security & architecture troubleshooting release notes agents agents agents introduction how agents work agent templates writing effective prompts agent develop"
+      }
+    ]
+  },
+  {
+    "capability": "Multi-cloud deployment options",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "customer-hosted"
+        ],
+        "snippet": "admin vpn setup in the glean admin console monitoring probe customer-hosted deployment customer-hosted deployment gcp aws troubleshoot customer-hosted deployment agents security best practices fo"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "GCP deployment"
+        ],
+        "snippet": "straints (for example, \"pilot rollout to a small group\" or \"gcp deployment\"). you can ask follow-up questions in the same panel; conversations aren't saved to your chat history. locate your tena"
+      }
+    ]
+  },
+  {
+    "capability": "Adoption and engagement insights",
+    "records": []
+  },
+  {
+    "capability": "Agent insights and quality metrics",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Agent Insights",
+          "agent adoption",
+          "voting feedback"
+        ],
+        "snippet": "e ready to share it. learn more agents [road-1497] revamped agent insights for admins and agent builders glean has revamped agent insights to make it easier to understand agent adoption, quality"
+      }
+    ]
+  },
+  {
+    "capability": "MCP usage and adoption tracking",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP Insights"
+        ],
+        "snippet": "ets designated users create and manage mcp servers and view mcp insights, making it easier to put ownership closer to the teams actually running ai workflows. how to access: a glean administra"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP Insights"
+        ],
+        "snippet": "nd managers assistant insights llm insights agents insights mcp insights embedded integrations announcements monitoring and alerts alerts audit logs glean customer event logs overview event sc"
       },
       {
         "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "box"
+          "usage analytics"
         ],
-        "snippet": "icker.reaction.smiley.aria_label\":\"smiley reaction\",\"search.box_placeholder_fin\":\"ask a question\",\"search.box_placeholder\":\"search for articles...\",\"search.clear_search\":\"clear search"
+        "snippet": "wkizj\\\":\\\"total token cost\\\",\\\"kthzuk6x95\\\":\\\"couldn’t load usage analytics.\\\",\\\"kvrb2mks1h\\\":\\\"meet claude\\\",\\\"kw0pied9cu\\\":\\\"connection target for this bridged environment.\\\",\\\"kzacs2mf+l\\\":\\\"t"
       }
     ]
   },
   {
-    "capability": "Confluence connector",
+    "capability": "Billing and usage dashboards",
     "records": [
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "Billing Console",
+          "FlexCredit usage",
+          "usage limits",
+          "per-user usage",
+          "chargeback"
         ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "confluence",
-          "connector"
-        ],
-        "snippet": "haring and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azure services,"
+        "snippet": "admin capabilities [road-1531] per-user usage visibility in billing console admins can now see ai and model usage at the individual user level in the billing console, not just as aggregate worksp"
       }
     ]
   },
   {
-    "capability": "Dropbox connector",
+    "capability": "Connector health and status monitoring",
     "records": [
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "sync status"
         ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "dropbox",
-          "connector"
-        ],
-        "snippet": "ices, including: file sharing and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, servicenow, dyna"
+        "snippet": "stay up to date through an hourly sync, and admins can view sync status or disable syncing for a repo at any time. how to access: administrators must enable for your organization. explore ski"
       }
     ]
   },
   {
-    "capability": "GitHub connector",
+    "capability": "Admin recommendations dashboard",
     "records": [
       {
         "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceLabel": "Microsoft Learn - Semantic Index for Copilot",
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "github",
-          "connector"
+          "recommendations"
         ],
-        "snippet": "eedbackhelplinkurl\": \"\", \"feedbacksystem\": \"none\", \"feedbackgithubrepo\": \"\", \"feedbackproducturl\": \"\", \"extendbreadcrumb\": true, \"iseditdisplayable\": false, \"isprivateunauthorized\": fals"
+        "snippet": "alse, \"hideviewsource\": false, \"ispermissioned\": false, \"hasrecommendations\": true, \"contributors\": [ { \"name\": \"camillepack\", \"url\": \"https://github.com/camillepack\" }, { \"name\": \"wobba\", \"url\":"
       },
       {
         "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceLabel": "Microsoft Learn - Microsoft Graph connectors overview",
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "github",
-          "connector"
+          "recommendations"
         ],
-        "snippet": "ackhelplinkurl\": \"\", \"feedbacksystem\": \"standard\", \"feedbackgithubrepo\": \"\", \"feedbackproducturl\": \"\", \"extendbreadcrumb\": false, \"iseditdisplayable\": true, \"isprivateunauthorized\": fals"
+        "snippet": "alse, \"hideviewsource\": false, \"ispermissioned\": false, \"hasrecommendations\": true, \"contributors\": [ { \"name\": \"lauragra\", \"url\": \"https://github.com/lauragra\" }, { \"name\": \"copilot\", \"url\": \"ht"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Connector gallery and docs",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-gallery",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "recommendations"
+        ],
+        "snippet": "alse, \"hideviewsource\": false, \"ispermissioned\": false, \"hasrecommendations\": false, \"contributors\": [ { \"name\": \"danielabom\", \"url\": \"https://github.com/danielabom\" }, { \"name\": \"danipocket\", \"u"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft 365 Copilot extensibility",
+        "sourceUrl": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "recommendations"
+        ],
+        "snippet": "alse, \"hideviewsource\": false, \"ispermissioned\": false, \"hasrecommendations\": false, \"contributors\": [ { \"name\": \"jasonjoh\", \"url\": \"https://github.com/jasonjoh\" }, { \"name\": \"erikadoyle\", \"url\":"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "notifications dashboard"
+        ],
+        "snippet": "oubleshooting release notes general about the admin console notifications dashboard usage dashboard models supported llms configure llms feature availability by llm key exclude or restrict models model d"
       },
       {
         "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "github"
+          "recommendations"
         ],
-        "snippet": "o our vulnerability disclosure program , and choose https://github.com/modelcontextprotocol as the asset. taking actions with tools remote mcp servers give claude tools it can invoke dur"
+        "snippet": "vhfrqllk\\\":\\\"drop settings.json here\\\",\\\"+y3kd3g9vs\\\":\\\"get recommendations for better prompting, tool usage, and user experience.\\\",\\\"+z06jwrgfe\\\":\\\"an earlier message was altered, reordered, or"
       }
     ]
   },
   {
-    "capability": "GitLab connector",
+    "capability": "Unified enterprise search",
     "records": [
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "enterprise search"
         ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+        "snippet": "or admins to roll out glean in chatgpt and connect users to enterprise search and other glean-powered workflows from that surface. how to access: chatgpt workspace admins can add the glean mcp serv"
       },
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "knowledge graph"
         ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Gmail connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Gong connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Google Calendar connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Google Drive connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "google drive",
-          "connector"
-        ],
-        "snippet": "luding: file sharing and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azur"
-      }
-    ]
-  },
-  {
-    "capability": "Jira connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "jira",
-          "connector"
-        ],
-        "snippet": "/oracle databases, sap. other platforms - workday, zendesk, jira, and more. to use a prebuilt connector, select the connector in the microsoft 365 admin center, provide credentials and"
-      }
-    ]
-  },
-  {
-    "capability": "Microsoft 365 connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "microsoft 365",
-          "connector"
-        ],
-        "snippet": "semantic indexing for microsoft 365 copilot | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); var theme = /^(light|dark|hi"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "microsoft 365",
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); var theme = /^(li"
-      }
-    ]
-  },
-  {
-    "capability": "Notion connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "OneDrive connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Outlook connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "outlook",
-          "connector"
-        ],
-        "snippet": "al copilot chat experience in microsoft 365 copilot, teams, outlook, and other microsoft 365 apps use connector content to respond to user queries. when users ask questions or request hel"
-      }
-    ]
-  },
-  {
-    "capability": "PagerDuty connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Salesforce connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "salesforce",
-          "connector"
-        ],
-        "snippet": "awiki, network file shares. enterprise apps and databases - salesforce, servicenow, dynamics 365, azure services, sql/oracle databases, sap. other platforms - workday, zendesk, jira, and mor"
-      }
-    ]
-  },
-  {
-    "capability": "SharePoint connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "sharepoint",
-          "connector"
-        ],
-        "snippet": "copilot, without adding complexity. when a user attaches a sharepoint document library or folder, or provides its url in a copilot prompt, the grounding step includes that scope and uses th"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "sharepoint",
-          "connector"
-        ],
-        "snippet": "xternal content through microsoft search across office.com, sharepoint, outlook, teams, bing (work account), and other apps. connectors enhance the microsoft search experience with the follo"
-      }
-    ]
-  },
-  {
-    "capability": "Slack connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Slack Real Time Search connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
-      }
-    ]
-  },
-  {
-    "capability": "Teams connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "teams",
-          "connector"
-        ],
-        "snippet": "rsational copilot chat experience in microsoft 365 copilot, teams, outlook, and other microsoft 365 apps use connector content to respond to user queries. when users ask questions or re"
-      }
-    ]
-  },
-  {
-    "capability": "Website connector",
-    "records": [
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
-      },
-      {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "connector"
-        ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+        "snippet": "data flow shared responsibility model upgrade model & sdlc knowledge graph shared and centralized services networking glean ip ranges admin vpn setup in the glean admin console monitoring probe"
       },
       {
         "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "website"
+          "knowledge retrieval"
         ],
-        "snippet": "ype\":1}},\"brand\":{\"colors\":[\"#cc785c\",\"#191919\",\"#f0f0eb\"],\"websiteurl\":\"http://anthropic.com\"},\"secondarycolor\":null,\"accentroles\":{\"link\":null,\"button\":null},\"showdottexture\":null,\"show"
+        "snippet": "ents.\\\",\\\"xz/ciyrwg0\\\":\\\"mermaid diagram\\\",\\\"xzdhfxcf3m\\\":\\\"knowledge retrieval\\\",\\\"xzzkm+o5qy\\\":\\\"{pct}%\\\",\\\"y/ou+fng9w\\\":\\\"grants ability to manage groups and their members\\\",\\\"y/uavakwzt\\\":\\\"{lang"
       }
     ]
   },
   {
-    "capability": "Zendesk connector",
+    "capability": "Real-time voice conversations",
     "records": [
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "real-time voice",
+          "voice chat",
+          "hands-free",
+          "voice actions"
         ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+        "snippet": "and chat history assistant [road-1467] take actions through real-time voice — send emails, post messages, create events, and more you can now take actions directly through real-time voice — send"
+      }
+    ]
+  },
+  {
+    "capability": "Deep Research agent",
+    "records": []
+  },
+  {
+    "capability": "Interactive artifacts and Canvas",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "interactive artifacts",
+          "HTML artifacts",
+          "Canvas",
+          "dashboards",
+          "proposals"
+        ],
+        "snippet": "n more in glean's help center. learn more agents [road-731] interactive artifacts are now generally available with interactive artifacts, users can create visual proposals, rich analysis, and refreshab"
       },
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
-        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "zendesk",
-          "connector"
+          "dashboards"
         ],
-        "snippet": "ices, sql/oracle databases, sap. other platforms - workday, zendesk, jira, and more. to use a prebuilt connector, select the connector in the microsoft 365 admin center, provide credentia"
+        "snippet": ") for engagement analysis, compliance reporting, and custom dashboards. last updated on jul 17, 2026 previous security & architecture hub next secure configuration © 2026 , glean technologie"
+      }
+    ]
+  },
+  {
+    "capability": "Slide deck generation with templates",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "slide generation"
+        ],
+        "snippet": "ve. the final presentation is exported through the existing slide generation pipeline to powerpoint or google slides, preserving your company's branding and template settings. how to access: admin"
+      }
+    ]
+  },
+  {
+    "capability": "Code search and codebase navigation",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Code Search"
+        ],
+        "snippet": "ers agents features code writer security overview how glean code search works agent sandbox & programmatic tool calling security & architecture core security principles on this page core secu"
+      }
+    ]
+  },
+  {
+    "capability": "Web search integration",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "web search",
+          "freshness support"
+        ],
+        "snippet": ". set up the panopto connector connectors [road-1002] brave web search: freshness support for time-sensitive queries brave web search now scopes time-sensitive queries to fresher results, so"
+      }
+    ]
+  },
+  {
+    "capability": "Adaptive reasoning",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "adaptive reasoning"
+        ],
+        "snippet": "more in glean's help center. learn more agents [road-1560] adaptive reasoning [customer key] adaptive reasoning dynamically decides how long to reason based on the user's query. this makes glean as"
+      }
+    ]
+  },
+  {
+    "capability": "Chat history search and queuing",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "chat history search",
+          "chat search"
+        ],
+        "snippet": "stant more streamlined chat conversation search use the new chat history search dialog to quickly find past glean chats and agent runs from the left sidebar. search by thread title keywords and filte"
+      }
+    ]
+  },
+  {
+    "capability": "Model governance by department",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "model governance",
+          "model availability"
+        ],
+        "snippet": "ct claude opus 5 to specific departments using the existing model governance controls. once enabled, end users can pick claude opus 5 from the model picker in assistant, and builders can select it"
+      }
+    ]
+  },
+  {
+    "capability": "Per-user and per-agent usage limits",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "usage limits",
+          "cost guardrails",
+          "global defaults"
+        ],
+        "snippet": "min capabilities [road-1339] per-user, per-agent flexcredit usage limits in admin console admins can now set per-user monthly usage limits directly in the admin console, with global defaults a"
       },
       {
         "vendor": "claude",
-        "sourceLabel": "Anthropic Claude connectors",
-        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "zendesk"
+          "spending limits"
         ],
-        "snippet": "-h2b-button{background-color:var(--primary-color);border:0}.zendesk-article table{overflow-x:scroll!important;display:block!important;height:auto!important}.intercom-interblocks-unordered"
+        "snippet": "adding to your parent organization.\\\",\\\"bkwuzlnkld\\\":\\\"set spending limits and notifications for your organization\\\",\\\"bkwdlm1mz0\\\":\\\"run this agent to create a session.\\\",\\\"bl8xzpmxlw\\\":\\\"after"
       }
     ]
   },
   {
-    "capability": "Zoom connector",
+    "capability": "Skills governance and publishing",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "draft-to-publish lifecycle",
+          "conflict resolution"
+        ],
+        "snippet": ", share, and govern skills across their organization with a draft-to-publish lifecycle, role-based admin controls, and deterministic conflict resolution between personal, shared, and admin-published skills."
+      }
+    ]
+  },
+  {
+    "capability": "Agent bulk cleanup and lifecycle management",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "agent cleanup",
+          "bulk delete",
+          "restore window"
+        ],
+        "snippet": ". how projects work platform [road-909] admin features bulk agent cleanup: admin-driven inactive-agent identification and bulk delete (and lifecycle api) admins can now clean up inactive agents"
+      }
+    ]
+  },
+  {
+    "capability": "Compliance and SOC2 documentation",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "compliance",
+          "Trust Portal"
+        ],
+        "snippet": "faster, discover related work across projects, and support compliance, audit, and onboarding workflows from one place. this is an admin-gated connector for end users. how to access: adminis"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Trust Portal"
+        ],
+        "snippet": "ore from glean go to glean developer docs community support trust portal status user guide agents get started for admins connectors tools admin guide security & architecture troubleshooting re"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Trust Portal"
+        ],
+        "snippet": "ore from glean go to glean developer docs community support trust portal status user guide agents get started for admins connectors tools admin guide security & architecture troubleshooting re"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "compliance",
+          "Trust Portal"
+        ],
+        "snippet": "s, workflow runs, citation clicks) for engagement analysis, compliance reporting, and custom dashboards. last updated on jul 17, 2026 previous security & architecture hub next secure configu"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Trust Portal"
+        ],
+        "snippet": "ore from glean go to glean developer docs community support trust portal status user guide agents get started for admins connectors tools admin guide security & architecture troubleshooting re"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Agent docs",
+        "sourceUrl": "https://docs.glean.com/agents/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Trust Portal"
+        ],
+        "snippet": "ore from glean go to glean developer docs community support trust portal status user guide agents get started for admins connectors tools admin guide security & architecture troubleshooting re"
+      }
+    ]
+  },
+  {
+    "capability": "Data encryption and tenant isolation",
     "records": [
       {
         "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors",
+        "sourceLabel": "Microsoft Learn - Semantic Index for Copilot",
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "data protection"
         ],
-        "snippet": "d supported onenote files (one) supported supported copilot connector data not applicable supported note files up to 512 mb are now supported for pdf, pptx, and docx extensions. this enhanc"
+        "snippet": "o microsoft 365 commercial customers, including the general data protection regulation (gdpr) and european union (eu) data boundary. prompts, responses, and data accessed through semantic indexin"
+      }
+    ]
+  },
+  {
+    "capability": "Auto Mode autonomous agents",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Auto Mode",
+          "autonomous agents",
+          "agent compiler"
+        ],
+        "snippet": "d those external agents as sub-agents in plan & execute and auto mode workflows. this lets glean agents delegate specialized tasks to domain-specific agents built on any a2a-compliant platf"
+      }
+    ]
+  },
+  {
+    "capability": "Workflow/Plan & Execute agents",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Plan & Execute"
+        ],
+        "snippet": "ent builders can add those external agents as sub-agents in plan & execute and auto mode workflows. this lets glean agents delegate specialized tasks to domain-specific agents built on any a2a-c"
+      }
+    ]
+  },
+  {
+    "capability": "Event-triggered agent automation",
+    "records": []
+  },
+  {
+    "capability": "Cross-agent collaboration and sub-agents",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "sub-agents",
+          "agent-to-agent",
+          "external agents"
+        ],
+        "snippet": "ntials, and agent builders can add those external agents as sub-agents in plan & execute and auto mode workflows. this lets glean agents delegate specialized tasks to domain-specific agents"
+      }
+    ]
+  },
+  {
+    "capability": "Multi-turn agent conversations",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "compiler chat persistence"
+        ],
+        "snippet": "nt compiler: persistent chat sessions across page refreshes compiler chat persistence in the autonomous agent builder keeps your conversation history when you refresh the page or reopen an agent, so you do"
+      }
+    ]
+  },
+  {
+    "capability": "Agent tools and action execution",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "read tools",
+          "write tools",
+          "JSM request routing"
+        ],
+        "snippet": "hatgpt, and other mcp hosts glean will expose all supported read tools through mcp so users can access fresh data from connected apps in tools like claude code, cursor, chatgpt, and other mc"
       },
       {
+        "vendor": "glean",
+        "sourceLabel": "Glean Agent docs",
+        "sourceUrl": "https://docs.glean.com/agents/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "agent tools"
+        ],
+        "snippet": "ating your first agent jump in and create your first simple agent tools review all of the tools glean has to offer creating a more powerful agent learn how to create a more capable agent admi"
+      }
+    ]
+  },
+  {
+    "capability": "Glean Assistant on external AI platforms",
+    "records": [
+      {
         "vendor": "microsoft",
-        "sourceLabel": "Microsoft Learn - Graph connectors overview",
+        "sourceLabel": "Microsoft Learn - Semantic Index for Copilot",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Copilot integration"
+        ],
+        "snippet": "act with the semantic index initially through microsoft 365 copilot integration. we generate a semantic index for users with a paid microsoft 365 copilot license. here are the details of how each fea"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "external platforms"
+        ],
+        "snippet": "posing extra data. admins get a consistent way to authorize external platforms, manage which glean capabilities are available where, and monitor usage across environments. how to access: from the gl"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "A2A server"
+        ],
+        "snippet": "connect hosts manage and monitor mcp server best practices a2a server about a2a server configure a2a server expose agents over a2a developer api tokens embedded integrations embedded integr"
+      }
+    ]
+  },
+  {
+    "capability": "Glean agents as MCP tools",
+    "records": []
+  },
+  {
+    "capability": "LLM selection in agents",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "model selection"
+        ],
+        "snippet": "s must enable for your organization. builder assistant with model selection is available to all customers who can access the agent builder and use builder assistant. admins should ensure that any"
+      }
+    ]
+  },
+  {
+    "capability": "Glean MCP server and remote MCP support",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server",
+          "remote MCP",
+          "Glean remote MCP",
+          "MCP gateway"
+        ],
+        "snippet": "y bigquery directly through bigquery mcp, google's official mcp server for bigquery, so users can ask questions in natural language or run sql against approved projects and datasets without"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server",
+          "Model Context Protocol"
+        ],
+        "snippet": "the run, regardless of who created or published the agent. mcp servers : results returned through the model context protocol respect the authenticated user's permissions. embedded integrati"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server",
+          "remote MCP",
+          "MCP gateway"
+        ],
+        "snippet": "p tools managing tools tools oauth reference connect remote mcp servers to glean custom mcp headers supported remote mcp servers glean mcp server about glean mcp server glean mcp gateway set"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - About connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server"
+        ],
+        "snippet": "external tools. you can: connect claude to existing remote mcp servers. build your own remote mcp servers to connect with any tool. security and privacy with custom connectors custom connec"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server"
+        ],
+        "snippet": "ractices skills for enterprise skills in the api mcp remote mcp servers mcp connector mcp tunnels  claude on cloud platforms amazon bedrock (opus 4.7 and later) amazon bedrock (opus 4.6 and"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - Model Context Protocol",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP server"
+        ],
+        "snippet": "ervers clients versioning develop with mcp connect to local mcp servers connect to remote mcp servers build with agent skills build an mcp server clients sdks security developer tools inspec"
+      }
+    ]
+  },
+  {
+    "capability": "MCP Gateway and external tool access",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP Gateway",
+          "external tools"
+        ],
+        "snippet": "ities exposed to ai systems. learn more actions [road-1460] mcp gateway: invoke all 2,000+ tools externally via claude code, cursor, chatgpt, and other mcp hosts glean will expose all support"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "MCP Gateway"
+        ],
+        "snippet": "e mcp servers glean mcp server about glean mcp server glean mcp gateway set up mcp tools connect hosts manage and monitor mcp server best practices a2a server about a2a server configure a2a s"
+      }
+    ]
+  },
+  {
+    "capability": "Embedded integrations (Slack, Teams, ServiceNow, Zendesk)",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "embedded integrations"
+        ],
+        "snippet": "e grid. if you have already done this, you can jump to the 'embedded integrations' tab to view the glean in slack setup page. on this setup page, enable gleanbot to respond in channels publicly and/or"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Security principles",
+        "sourceUrl": "https://docs.glean.com/security/security-principles",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "embedded integrations"
+        ],
+        "snippet": "text protocol respect the authenticated user's permissions. embedded integrations : agent tiles, suggested next steps, and search results in servicenow, zendesk, and salesforce are permission-aware. if"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "embedded integrations"
+        ],
+        "snippet": "gure a2a server expose agents over a2a developer api tokens embedded integrations embedded integrations home supported app integrations identity roles people data sso third-party access management peop"
+      }
+    ]
+  },
+  {
+    "capability": "Slack public channel answers",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Gleanbot",
+          "shared responses"
+        ],
+        "snippet": "w the glean in slack setup page. on this setup page, enable gleanbot to respond in channels publicly and/or proactively. you can enable it for all public channels by default, or choose spe"
+      }
+    ]
+  },
+  {
+    "capability": "ChatGPT app marketplace integration",
+    "records": []
+  },
+  {
+    "capability": "GitHub Copilot and IDE extensions",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Microsoft Graph connectors overview",
         "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
         "observedDate": "2026-08-03",
         "matchedKeywords": [
-          "connector"
+          "Copilot extension"
         ],
-        "snippet": "copilot connectors overview - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('"
+        "snippet": "on user roles, behaviors, and organizational relationships. copilot extension - a browser add-on that enhances search relevance by incorporating signals from external work-related sites—without tra"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Cursor"
+        ],
+        "snippet": "standard — import compatible skills from openai, anthropic, cursor, and more, then tailor them to how your organization works. with ga on june 18, 2026, admins can create, share, and gov"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "developer tools"
+        ],
+        "snippet": "s39wxuohk\\\":\\\"redeem your offer to access claude’s powerful developer tools\\\",\\\"yscydo43ck\\\":\\\"claude max or pro is required to connect to claude code\\\",\\\"yuahcr4bdf\\\":\\\"edit example\\\",\\\"yudq6bgi"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - Model Context Protocol",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "developer tools"
+        ],
+        "snippet": "with agent skills build an mcp server clients sdks security developer tools inspector debugging examples example servers (function () { try { if (window.__mintlifyinitialsidebarscrolldone) return"
+      }
+    ]
+  },
+  {
+    "capability": "Projects and content organization",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Microsoft Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "content management"
+        ],
+        "snippet": "onnectors for popular services, including: file sharing and content management - box, dropbox, google drive, confluence, mediawiki, network file shares. enterprise apps and databases - salesforce, s"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "Projects",
+          "folders"
+        ],
+        "snippet": "k questions in natural language or run sql against approved projects and datasets without leaving assistant. this makes glean a front door to your warehouse so business users get governed,"
+      }
+    ]
+  },
+  {
+    "capability": "Browser extension and sidebar access",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "browser extension",
+          "sidebar search",
+          "new tab page",
+          "integrated search"
+        ],
+        "snippet": "who are actively using glean but have not yet installed the browser extension will now see a persistent \"finish setup\" style button on glean home that guides them to install the extension. this mak"
+      }
+    ]
+  },
+  {
+    "capability": "Personal skills and capability libraries",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "personal skills",
+          "shared skills",
+          "admin-published skills",
+          "open agent skills standard"
+        ],
+        "snippet": "he capabilities tab and admin console. end users can create personal skills and use shared and admin-published skills directly in glean assistant, with a privacy model that keeps private skills i"
       }
     ]
   }

@@ -1,27 +1,82 @@
 [
   {
     "vendor": "microsoft",
-    "label": "Microsoft Learn - Graph connectors",
+    "label": "Microsoft Learn - Semantic Index for Copilot",
     "url": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot"
   },
   {
     "vendor": "microsoft",
-    "label": "Microsoft Learn - Graph connectors overview",
+    "label": "Microsoft Learn - Microsoft Graph connectors overview",
     "url": "https://learn.microsoft.com/microsoftsearch/connectors-overview"
   },
   {
+    "vendor": "microsoft",
+    "label": "Microsoft Learn - Connector gallery and docs",
+    "url": "https://learn.microsoft.com/microsoftsearch/connectors-gallery"
+  },
+  {
+    "vendor": "microsoft",
+    "label": "Microsoft 365 Copilot extensibility",
+    "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/"
+  },
+  {
     "vendor": "openai",
-    "label": "OpenAI apps and connectors",
+    "label": "OpenAI ChatGPT release notes",
     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
   },
   {
+    "vendor": "openai",
+    "label": "OpenAI connectors in ChatGPT",
+    "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt"
+  },
+  {
+    "vendor": "openai",
+    "label": "OpenAI work with apps",
+    "url": "https://help.openai.com/en/articles/11145903-work-with-apps-on-macos"
+  },
+  {
     "vendor": "claude",
-    "label": "Anthropic Claude connectors",
+    "label": "Anthropic - About connectors",
     "url": "https://support.anthropic.com/en/articles/11175166-about-connectors"
   },
   {
+    "vendor": "claude",
+    "label": "Anthropic - Using tools with Claude",
+    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+  },
+  {
+    "vendor": "claude",
+    "label": "Anthropic - Model Context Protocol",
+    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp"
+  },
+  {
     "vendor": "glean",
-    "label": "Glean connectors docs",
-    "url": "https://docs.glean.com/en/glean-connectors"
+    "label": "Glean Release Notes",
+    "url": "https://docs.glean.com/release-notes/"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean Connectors hub",
+    "url": "https://docs.glean.com/connectors/"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean Connectors crawling frequency",
+    "url": "https://docs.glean.com/connectors/crawling-frequency"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean Security principles",
+    "url": "https://docs.glean.com/security/security-principles"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean Administration overview",
+    "url": "https://docs.glean.com/administration/about"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean Agent docs",
+    "url": "https://docs.glean.com/agents/"
   }
 ]
