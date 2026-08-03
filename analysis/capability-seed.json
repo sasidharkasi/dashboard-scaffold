@@ -1,6 +1,6 @@
 [
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "Native connector portfolio",
     "severity": "High",
     "microsoftKeywords": [
@@ -29,7 +29,7 @@
     "syncNuanceForClaude": false
   },
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "Push API and custom connectors",
     "severity": "High",
     "microsoftKeywords": [
@@ -58,7 +58,7 @@
     "syncNuanceForClaude": false
   },
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "Live and hybrid access modes",
     "severity": "High",
     "microsoftKeywords": [
@@ -88,7 +88,7 @@
     "syncNuanceForClaude": false
   },
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "Panopto video connector",
     "severity": "Medium",
     "microsoftKeywords": [
@@ -113,7 +113,7 @@
     "syncNuanceForClaude": false
   },
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "Veeva Vault connector",
     "severity": "Medium",
     "microsoftKeywords": [
@@ -139,7 +139,7 @@
     "syncNuanceForClaude": false
   },
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "Autodesk Construction Cloud connector",
     "severity": "Medium",
     "microsoftKeywords": [
@@ -165,7 +165,7 @@
     "syncNuanceForClaude": false
   },
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "NetSuite MCP support",
     "severity": "Medium",
     "microsoftKeywords": [
@@ -191,7 +191,7 @@
     "syncNuanceForClaude": false
   },
   {
-    "category": "Connector Coverage",
+    "category": "Connector coverage",
     "capability": "BigQuery integration with natural language",
     "severity": "Medium",
     "microsoftKeywords": [
@@ -214,6 +214,238 @@
       "SQL execution"
     ],
     "evidenceUrl": "https://docs.glean.com/tools/connector/googlecloud",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Set up capabilities",
+    "capability": "Connector authentication configuration",
+    "severity": "High",
+    "microsoftKeywords": [
+      "connector credentials",
+      "authentication configuration",
+      "oauth setup"
+    ],
+    "gleanKeywords": [
+      "connector setup",
+      "authentication modes",
+      "oauth",
+      "service account"
+    ],
+    "openaiKeywords": [
+      "connector auth",
+      "oauth",
+      "integration setup"
+    ],
+    "claudeKeywords": [
+      "connector auth",
+      "oauth",
+      "integration setup"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/getting-started",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Set up capabilities",
+    "capability": "Connector content filters and inclusion rules",
+    "severity": "High",
+    "microsoftKeywords": [
+      "inclusion rules",
+      "content filters",
+      "connector scope"
+    ],
+    "gleanKeywords": [
+      "content filters",
+      "inclusion rules",
+      "connector configuration",
+      "source scoping"
+    ],
+    "openaiKeywords": [
+      "connector scope",
+      "content filters",
+      "source selection"
+    ],
+    "claudeKeywords": [
+      "connector scope",
+      "content filters",
+      "source selection"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/about",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Set up capabilities",
+    "capability": "Crawl frequency and scheduling setup",
+    "severity": "Medium",
+    "microsoftKeywords": [
+      "sync schedule",
+      "crawl frequency",
+      "refresh intervals"
+    ],
+    "gleanKeywords": [
+      "crawl frequency",
+      "scheduled crawls",
+      "refresh rates",
+      "sync cadence"
+    ],
+    "openaiKeywords": [
+      "refresh schedule",
+      "update cadence",
+      "ingestion schedule"
+    ],
+    "claudeKeywords": [
+      "refresh schedule",
+      "update cadence",
+      "ingestion schedule"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Set up capabilities",
+    "capability": "Custom connector onboarding",
+    "severity": "Medium",
+    "microsoftKeywords": [
+      "custom connector",
+      "api ingestion",
+      "connector onboarding"
+    ],
+    "gleanKeywords": [
+      "custom connector",
+      "push api",
+      "indexing api",
+      "connector onboarding"
+    ],
+    "openaiKeywords": [
+      "custom connector",
+      "api integration",
+      "connector onboarding"
+    ],
+    "claudeKeywords": [
+      "custom connector",
+      "api integration",
+      "connector onboarding"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/custom/about",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Manageability capabilities",
+    "capability": "Connector health status dashboard",
+    "severity": "High",
+    "microsoftKeywords": [
+      "connector health",
+      "status dashboard",
+      "sync status"
+    ],
+    "gleanKeywords": [
+      "connector health",
+      "status dashboard",
+      "sync status",
+      "health alerts"
+    ],
+    "openaiKeywords": [
+      "connector health",
+      "integration status",
+      "sync status"
+    ],
+    "claudeKeywords": [
+      "connector health",
+      "integration status",
+      "sync status"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Manageability capabilities",
+    "capability": "Crawl error diagnostics",
+    "severity": "High",
+    "microsoftKeywords": [
+      "crawl errors",
+      "sync diagnostics",
+      "connector troubleshooting"
+    ],
+    "gleanKeywords": [
+      "crawl errors",
+      "connector troubleshooting",
+      "sync diagnostics",
+      "crawl faq"
+    ],
+    "openaiKeywords": [
+      "sync diagnostics",
+      "integration troubleshooting",
+      "error monitoring"
+    ],
+    "claudeKeywords": [
+      "sync diagnostics",
+      "integration troubleshooting",
+      "error monitoring"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/crawling-faq",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Manageability capabilities",
+    "capability": "Deletion and stale-content cleanup",
+    "severity": "High",
+    "microsoftKeywords": [
+      "deletion detection",
+      "stale content cleanup",
+      "sync cleanup"
+    ],
+    "gleanKeywords": [
+      "deletion detection",
+      "content removal",
+      "cleanup",
+      "crawling deletion"
+    ],
+    "openaiKeywords": [
+      "deletion sync",
+      "content lifecycle",
+      "cleanup"
+    ],
+    "claudeKeywords": [
+      "deletion sync",
+      "content lifecycle",
+      "cleanup"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/crawling-deletion",
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "category": "Manageability capabilities",
+    "capability": "Change-rate and crawl-rate tracking",
+    "severity": "Medium",
+    "microsoftKeywords": [
+      "change rate",
+      "crawl rate",
+      "sync metrics"
+    ],
+    "gleanKeywords": [
+      "change rate",
+      "crawl rate",
+      "items synced",
+      "sync metrics"
+    ],
+    "openaiKeywords": [
+      "sync metrics",
+      "freshness metrics",
+      "ingestion metrics"
+    ],
+    "claudeKeywords": [
+      "sync metrics",
+      "freshness metrics",
+      "ingestion metrics"
+    ],
+    "evidenceUrl": "https://docs.glean.com/connectors/crawling-faq",
     "syncNuanceForOpenAi": false,
     "syncNuanceForClaude": false
   }

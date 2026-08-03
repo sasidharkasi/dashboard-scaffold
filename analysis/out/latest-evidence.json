@@ -161,5 +161,214 @@
         "snippet": "sql glean assistant can now query bigquery directly through bigquery mcp, google's official mcp server for bigquery, so users can ask questions in natural language or run sql against approved"
       }
     ]
+  },
+  {
+    "capability": "Connector authentication configuration",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "oauth",
+          "service account"
+        ],
+        "snippet": "gister external a2a agent servers in the admin console with oauth credentials, and agent builders can add those external agents as sub-agents in plan & execute and auto mode workflows."
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector setup"
+        ],
+        "snippet": "tors custom connectors configure actions configure tools in connector setup fundamentals connectors hub on this page connectors hub glean connectors bring content from your company's apps into gl"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector setup"
+        ],
+        "snippet": "tors custom connectors configure actions configure tools in connector setup fundamentals crawl and index connectors strategy crawl strategy the glean crawling system retrieves and indexes content"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Administration overview",
+        "sourceUrl": "https://docs.glean.com/administration/about",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "oauth"
+        ],
+        "snippet": "ills tools tools overview set up tools managing tools tools oauth reference connect remote mcp servers to glean custom mcp headers supported remote mcp servers glean mcp server about gl"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - About connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "oauth"
+        ],
+        "snippet": "er url. optionally, click “advanced settings” to specify an oauth client id and oauth client secret for your server. finish configuring your connector by clicking &quot;add.&quot; steps"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - Using tools with Claude",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "oauth"
+        ],
+        "snippet": "\"https://sandbox.claudemcpcontent.com/imagine_mcp\\\",\\\"googleoauthclientid\\\":\\\"1062961139910-l2m55cb9h51u5cuc9c56eb3fevouidh9.apps.googleusercontent.com\\\",\\\"stripepublishablekey\\\":\\\"pk_l"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - Model Context Protocol",
+        "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "oauth"
+        ],
+        "snippet": "how to implement secure authorization for mcp servers using oauth 2.1 to protect sensitive resources and operations\\\",\\\"href\\\":\\\"/docs/2026-07-28/tutorials/security/authorization\\\"},{\\\""
+      }
+    ]
+  },
+  {
+    "capability": "Connector content filters and inclusion rules",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "connector configuration"
+        ],
+        "snippet": "construction cloud connector. follow the setup flow in the connector configuration page to authenticate autodesk construction cloud and complete the required admin configuration. after setup is complete"
+      }
+    ]
+  },
+  {
+    "capability": "Crawl frequency and scheduling setup",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "refresh rates"
+        ],
+        "snippet": "ectors crawl and index connectors home strategy crawl types refresh rates deletion handling limits content exclusion faq manage connectors authentication requirements connectors and the glean e"
+      }
+    ]
+  },
+  {
+    "capability": "Custom connector onboarding",
+    "records": [
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Microsoft Graph connectors overview",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-overview",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "custom connector"
+        ],
+        "snippet": "e, dynamic, or live data sources default connectors yes yes custom connectors yes no synced connectors synced connectors crawl and index content from external sources into microsoft graph. this in"
+      },
+      {
+        "vendor": "microsoft",
+        "sourceLabel": "Microsoft Learn - Connector gallery and docs",
+        "sourceUrl": "https://learn.microsoft.com/microsoftsearch/connectors-gallery",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "custom connector"
+        ],
+        "snippet": "connectors. developers can use the connectors api to create custom connectors. in addition, microsoft and partner organizations provide more than 100 prebuilt connectors that connect to popular mi"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors hub",
+        "sourceUrl": "https://docs.glean.com/connectors/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "custom connector"
+        ],
+        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals connectors hub on this page connectors hub glean con"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "custom connector"
+        ],
+        "snippet": "rms connectors by type native connectors partner connectors custom connectors configure actions configure tools in connector setup fundamentals crawl and index connectors strategy crawl strategy t"
+      },
+      {
+        "vendor": "claude",
+        "sourceLabel": "Anthropic - About connectors",
+        "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "custom connector"
+        ],
+        "snippet": "aude.com/en/collections/17879441-custom-connectors\",\"name\":\"custom connectors\",\"position\":3},{\"@type\":\"listitem\",\"name\":\"get started with custom connectors using remote mcp\",\"position\":4}]} {\"@con"
+      }
+    ]
+  },
+  {
+    "capability": "Connector health status dashboard",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "sync status"
+        ],
+        "snippet": "stay up to date through an hourly sync, and admins can view sync status or disable syncing for a repo at any time. how to access: administrators must enable for your organization. explore ski"
+      }
+    ]
+  },
+  {
+    "capability": "Crawl error diagnostics",
+    "records": []
+  },
+  {
+    "capability": "Deletion and stale-content cleanup",
+    "records": [
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Release Notes",
+        "sourceUrl": "https://docs.glean.com/release-notes/",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "cleanup"
+        ],
+        "snippet": "projects work platform [road-909] admin features bulk agent cleanup: admin-driven inactive-agent identification and bulk delete (and lifecycle api) admins can now clean up inactive agents"
+      },
+      {
+        "vendor": "glean",
+        "sourceLabel": "Glean Connectors crawling frequency",
+        "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
+        "observedDate": "2026-08-03",
+        "matchedKeywords": [
+          "cleanup"
+        ],
+        "snippet": "ves deleted content, including webhook-based and full-crawl cleanup. was this page helpful? last updated on jun 30, 2026 previous home next crawl types © 2026 , glean technologies, inc."
+      }
+    ]
+  },
+  {
+    "capability": "Change-rate and crawl-rate tracking",
+    "records": []
   }
 ]

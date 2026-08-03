@@ -7,13 +7,13 @@ export const analysisCurrent: AnalysisRound = {
   "executiveMetrics": [
     {
       "label": "Overall sync capability position",
-      "value": "-29",
+      "value": "-55",
       "detail": "Weighted lead/parity score across priority sync capabilities.",
       "tone": "alert"
     },
     {
       "label": "Critical gap count",
-      "value": "2",
+      "value": "6",
       "detail": "High-severity gaps that need roadmap or evidence review.",
       "tone": "alert"
     },
@@ -31,9 +31,9 @@ export const analysisCurrent: AnalysisRound = {
     },
     {
       "label": "Changed since last review",
-      "value": "0",
+      "value": "8",
       "detail": "Rows whose derived status changed since prior generated round.",
-      "tone": "neutral"
+      "tone": "alert"
     }
   ],
   "capabilityGroups": [
@@ -151,6 +151,94 @@ export const analysisCurrent: AnalysisRound = {
       "severity": "Medium",
       "confidence": "Low",
       "note": "Strict evidence run 2026-08-03: 1 matched source records."
+    },
+    {
+      "capability": "Connector authentication configuration",
+      "microsoft": "Not evaluated",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Supported",
+      "status": "Lag",
+      "severity": "High",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 7 matched source records."
+    },
+    {
+      "capability": "Connector content filters and inclusion rules",
+      "microsoft": "Not evaluated",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Lag",
+      "severity": "High",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 1 matched source records."
+    },
+    {
+      "capability": "Crawl frequency and scheduling setup",
+      "microsoft": "Not evaluated",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Lag",
+      "severity": "Medium",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 1 matched source records."
+    },
+    {
+      "capability": "Custom connector onboarding",
+      "microsoft": "Supported",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Supported",
+      "status": "Parity",
+      "severity": "Medium",
+      "confidence": "High",
+      "note": "Strict evidence run 2026-08-03: 5 matched source records."
+    },
+    {
+      "capability": "Connector health status dashboard",
+      "microsoft": "Not evaluated",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Lag",
+      "severity": "High",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 1 matched source records."
+    },
+    {
+      "capability": "Crawl error diagnostics",
+      "microsoft": "Not evaluated",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "High",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 0 matched source records."
+    },
+    {
+      "capability": "Deletion and stale-content cleanup",
+      "microsoft": "Not evaluated",
+      "glean": "Supported",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Lag",
+      "severity": "High",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+    },
+    {
+      "capability": "Change-rate and crawl-rate tracking",
+      "microsoft": "Not evaluated",
+      "glean": "Not evaluated",
+      "openAi": "Not evaluated",
+      "claude": "Not evaluated",
+      "status": "Not evaluated",
+      "severity": "Medium",
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 0 matched source records."
     }
   ],
   "domains": [
