@@ -509,7 +509,20 @@ async function main() {
   await fs.mkdir(path.dirname(outputCapabilityTsPath), { recursive: true })
 
   const outputTs = `import type { AnalysisRound } from './types'\n\nexport const analysisCurrent: AnalysisRound = ${JSON.stringify(analysisRound, null, 2)}\n`
-  const capabilityTs = `export type Binary = 'Yes' | 'No'\n\nexport type CapabilityRow = {\n  capability: string\n  copilotConnectors: Binary\n  openAi: Binary\n  claude: Binary\n  glean: Binary\n}\n\nexport const capabilityRows: CapabilityRow[] = ${JSON.stringify(binaryRows, null, 2)}\n`
+  const gleanPivotRows = capabilitySeed.map((seed) => {
+    const match = binaryRows.find((row) => row.capability === seed.capability)
+    const copilot = match?.copilotConnectors ?? 'No'
+    const missing = copilot === 'Yes' ? 'No' : 'Yes'
+
+    return {
+      capability: seed.capability,
+      gleanBaseline: 'Yes',
+      copilotConnectors: copilot,
+      missingInCopilot: missing,
+    }
+  })
+
+  const capabilityTs = `export type Binary = 'Yes' | 'No'\n\nexport type CapabilityRow = {\n  capability: string\n  gleanBaseline: Binary\n  copilotConnectors: Binary\n  missingInCopilot: Binary\n}\n\nexport const capabilityRows: CapabilityRow[] = ${JSON.stringify(gleanPivotRows, null, 2)}\n`
 
   await fs.writeFile(outputTsPath, outputTs, 'utf8')
   await fs.writeFile(outputJsonPath, JSON.stringify(analysisRound, null, 2), 'utf8')

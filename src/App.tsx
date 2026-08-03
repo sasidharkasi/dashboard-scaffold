@@ -7,28 +7,26 @@ function cellClass(value: Binary) {
 function App() {
   return (
     <main className="clean-shell">
-      <h1>Capability Comparison</h1>
-      <p className="subhead">Binary support matrix across Copilot connectors, OpenAI, Claude, and Glean.</p>
+      <h1>Glean-Pivot Capability Gap View</h1>
+      <p className="subhead">All rows are Glean baseline capabilities. Focus: what Copilot connectors is missing.</p>
 
       <div className="table-wrap">
         <table>
           <thead>
             <tr>
               <th>Capability</th>
+              <th>Glean Baseline</th>
               <th>Copilot Connectors</th>
-              <th>OpenAI</th>
-              <th>Claude</th>
-              <th>Glean</th>
+              <th>Missing In Copilot</th>
             </tr>
           </thead>
           <tbody>
             {capabilityRows.map((row) => (
               <tr key={row.capability}>
                 <td>{row.capability}</td>
+                <td className={cellClass(row.gleanBaseline)}>{row.gleanBaseline}</td>
                 <td className={cellClass(row.copilotConnectors)}>{row.copilotConnectors}</td>
-                <td className={cellClass(row.openAi)}>{row.openAi}</td>
-                <td className={cellClass(row.claude)}>{row.claude}</td>
-                <td className={cellClass(row.glean)}>{row.glean}</td>
+                <td className={cellClass(row.missingInCopilot)}>{row.missingInCopilot}</td>
               </tr>
             ))}
           </tbody>
