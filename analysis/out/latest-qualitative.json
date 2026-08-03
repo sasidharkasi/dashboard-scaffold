@@ -2,16 +2,16 @@
   {
     "capability": "ServiceNow ITSM incidents & ticket ingestion",
     "severity": "High",
-    "status": "Parity",
-    "evidenceStrength": "Strong evidence",
-    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "status": "Lag",
+    "evidenceStrength": "Moderate evidence",
+    "summary": "Found 2 supporting evidence record(s) across vendors.",
     "narratives": {
-      "copilotConnectors": "Copilot connectors: supported signal found from 1 source match(es).",
+      "copilotConnectors": "Copilot connectors: no direct evidence found this run.",
       "openAi": "OpenAI: no direct evidence found this run.",
       "claude": "Claude: no direct evidence found this run.",
       "glean": "Glean: supported signal found from 2 source match(es)."
     },
-    "recommendation": "Keep under weekly monitoring."
+    "recommendation": "Escalate for roadmap review."
   },
   {
     "capability": "ServiceNow Knowledge Article support with content publishing",

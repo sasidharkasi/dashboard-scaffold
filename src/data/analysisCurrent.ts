@@ -7,13 +7,13 @@ export const analysisCurrent: AnalysisRound = {
   "executiveMetrics": [
     {
       "label": "Overall sync capability position",
-      "value": "-1",
+      "value": "-10",
       "detail": "Weighted lead/parity score across priority sync capabilities.",
       "tone": "alert"
     },
     {
       "label": "Critical gap count",
-      "value": "4",
+      "value": "5",
       "detail": "High-severity gaps that need roadmap or evidence review.",
       "tone": "alert"
     },
@@ -25,13 +25,13 @@ export const analysisCurrent: AnalysisRound = {
     },
     {
       "label": "Evidence confidence",
-      "value": "62%",
+      "value": "54%",
       "detail": "Rows backed by at least medium confidence using explicit source matches.",
       "tone": "neutral"
     },
     {
       "label": "Changed since last review",
-      "value": "13",
+      "value": "1",
       "detail": "Rows whose derived status changed since prior generated round.",
       "tone": "alert"
     }
@@ -66,14 +66,14 @@ export const analysisCurrent: AnalysisRound = {
   "scoreRows": [
     {
       "capability": "ServiceNow ITSM incidents & ticket ingestion",
-      "microsoft": "Supported",
+      "microsoft": "Not evaluated",
       "glean": "Supported",
       "openAi": "Not evaluated",
       "claude": "Not evaluated",
-      "status": "Parity",
+      "status": "Lag",
       "severity": "High",
-      "confidence": "Medium",
-      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+      "confidence": "Low",
+      "note": "Strict evidence run 2026-08-03: 2 matched source records."
     },
     {
       "capability": "ServiceNow Knowledge Article support with content publishing",

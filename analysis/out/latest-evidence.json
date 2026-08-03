@@ -3,16 +3,6 @@
     "capability": "ServiceNow ITSM incidents & ticket ingestion",
     "records": [
       {
-        "vendor": "microsoft",
-        "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
-        "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
-        "observedDate": "2026-08-03",
-        "matchedKeywords": [
-          "Knowledge connector"
-        ],
-        "snippet": "deploy the servicenow knowledge connector - microsoft 365 copilot connectors | microsoft learn (function () { try { var stored = localstorage.getitem('theme'); v"
-      },
-      {
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector about",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",

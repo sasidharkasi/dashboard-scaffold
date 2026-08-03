@@ -14,8 +14,8 @@ export const capabilityRows: CapabilityRow[] = [
     "category": "Connector coverage",
     "capability": "ServiceNow ITSM incidents & ticket ingestion",
     "gleanBaseline": "Yes",
-    "copilotConnectors": "Yes",
-    "missingInCopilot": "No",
+    "copilotConnectors": "No",
+    "missingInCopilot": "Yes",
     "evidenceUrl": "https://docs.glean.com/connectors/native/servicenow/about"
   },
   {
