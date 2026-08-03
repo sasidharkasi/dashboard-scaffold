@@ -1,0 +1,27 @@
+[
+  {
+    "vendor": "microsoft",
+    "label": "Microsoft Learn - Graph connectors",
+    "url": "https://learn.microsoft.com/microsoftsearch/semantic-index-for-copilot"
+  },
+  {
+    "vendor": "microsoft",
+    "label": "Microsoft Learn - Graph connectors overview",
+    "url": "https://learn.microsoft.com/microsoftsearch/connectors-overview"
+  },
+  {
+    "vendor": "openai",
+    "label": "OpenAI apps and connectors",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "vendor": "claude",
+    "label": "Anthropic Claude connectors",
+    "url": "https://support.anthropic.com/en/articles/11175166-about-connectors"
+  },
+  {
+    "vendor": "glean",
+    "label": "Glean connectors docs",
+    "url": "https://docs.glean.com/en/glean-connectors"
+  }
+]

@@ -1,8 +1,7 @@
 import {
-  analysisRound1,
-  type ExecutiveMetricTone,
-  type Status,
-} from './data/analysisRound1'
+} from './data/analysisCurrent'
+import { analysisCurrent } from './data/analysisCurrent'
+import type { ExecutiveMetricTone, Status } from './data/types'
 
 const {
   roundLabel,
@@ -13,7 +12,7 @@ const {
   domains,
   reviewSteps,
   architectureLayers,
-} = analysisRound1
+} = analysisCurrent
 
 function getStatusClass(status: Status) {
   return `status-pill status-pill--${status.toLowerCase().replace(/\s+/g, '-')}`

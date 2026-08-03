@@ -1,0 +1,62 @@
+[
+  {
+    "capability": "ServiceNow KB synced connector",
+    "severity": "Medium",
+    "microsoftKeywords": ["servicenow", "connector"],
+    "gleanKeywords": ["servicenow"],
+    "openaiKeywords": ["connector", "apps"],
+    "claudeKeywords": ["connector", "mcp"],
+    "syncNuanceForOpenAi": true,
+    "syncNuanceForClaude": true
+  },
+  {
+    "capability": "Incremental sync",
+    "severity": "High",
+    "microsoftKeywords": ["incremental", "crawl"],
+    "gleanKeywords": ["sync"],
+    "openaiKeywords": ["sync", "search"],
+    "claudeKeywords": ["mcp", "retrieve"],
+    "syncNuanceForOpenAi": true,
+    "syncNuanceForClaude": true
+  },
+  {
+    "capability": "Permission freshness",
+    "severity": "High",
+    "microsoftKeywords": ["permissions", "acl"],
+    "gleanKeywords": ["permissions", "access"],
+    "openaiKeywords": ["permission", "security"],
+    "claudeKeywords": ["permission", "security"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "Schema configuration",
+    "severity": "Medium",
+    "microsoftKeywords": ["schema", "connector"],
+    "gleanKeywords": ["schema", "metadata"],
+    "openaiKeywords": ["apps", "actions"],
+    "claudeKeywords": ["mcp", "tool"],
+    "syncNuanceForOpenAi": true,
+    "syncNuanceForClaude": true
+  },
+  {
+    "capability": "Index browser and crawl diagnostics",
+    "severity": "Low",
+    "microsoftKeywords": ["index", "crawl"],
+    "gleanKeywords": ["search", "index"],
+    "openaiKeywords": ["search"],
+    "claudeKeywords": ["search"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  },
+  {
+    "capability": "External group ACL support",
+    "severity": "High",
+    "microsoftKeywords": ["group", "acl"],
+    "gleanKeywords": ["group", "permission"],
+    "openaiKeywords": ["group", "permission"],
+    "claudeKeywords": ["group", "permission"],
+    "syncNuanceForOpenAi": false,
+    "syncNuanceForClaude": false
+  }
+]
