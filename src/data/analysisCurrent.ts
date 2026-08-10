@@ -2,7 +2,7 @@ import type { AnalysisRound } from './types'
 
 export const analysisCurrent: AnalysisRound = {
   "roundLabel": "Weekly strict evidence analysis",
-  "analysisDate": "2026-08-03",
+  "analysisDate": "2026-08-10",
   "scoringPolicy": "Strict evidence policy: a vendor capability is scored only when at least one direct source match exists.",
   "executiveMetrics": [
     {
@@ -73,7 +73,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Lag",
       "severity": "High",
       "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+      "note": "Strict evidence run 2026-08-10: 2 matched source records."
     },
     {
       "capability": "ServiceNow Knowledge Article support with content publishing",
@@ -84,7 +84,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Parity",
       "severity": "High",
       "confidence": "Medium",
-      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+      "note": "Strict evidence run 2026-08-10: 3 matched source records."
     },
     {
       "capability": "APM & CMDB Business Application support",
@@ -95,7 +95,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Lag",
       "severity": "High",
       "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 2 matched source records."
+      "note": "Strict evidence run 2026-08-10: 2 matched source records."
     },
     {
       "capability": "SAML/OIDC authentication with federated identity",
@@ -106,7 +106,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Parity",
       "severity": "High",
       "confidence": "High",
-      "note": "Strict evidence run 2026-08-03: 8 matched source records."
+      "note": "Strict evidence run 2026-08-10: 8 matched source records."
     },
     {
       "capability": "ServiceNow OAuth application & token lifecycle management",
@@ -117,7 +117,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Parity",
       "severity": "High",
       "confidence": "High",
-      "note": "Strict evidence run 2026-08-03: 4 matched source records."
+      "note": "Strict evidence run 2026-08-10: 4 matched source records."
     },
     {
       "capability": "Permission & ACL mapping - role-based + record-level access",
@@ -128,7 +128,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Parity",
       "severity": "High",
       "confidence": "High",
-      "note": "Strict evidence run 2026-08-03: 7 matched source records."
+      "note": "Strict evidence run 2026-08-10: 8 matched source records."
     },
     {
       "capability": "Connector sync monitoring - initial sync phases & metrics",
@@ -139,7 +139,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Lag",
       "severity": "High",
       "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+      "note": "Strict evidence run 2026-08-10: 3 matched source records."
     },
     {
       "capability": "Connector health metrics & alerting (Crawl rate, Change rate)",
@@ -150,7 +150,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Lag",
       "severity": "High",
       "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+      "note": "Strict evidence run 2026-08-10: 3 matched source records."
     },
     {
       "capability": "Connector error handling & credential failure alerts",
@@ -161,7 +161,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Lag",
       "severity": "High",
       "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 1 matched source records."
+      "note": "Strict evidence run 2026-08-10: 1 matched source records."
     },
     {
       "capability": "Content deletion & permission sync - webhooks vs full crawl",
@@ -172,7 +172,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Parity",
       "severity": "High",
       "confidence": "Medium",
-      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+      "note": "Strict evidence run 2026-08-10: 3 matched source records."
     },
     {
       "capability": "Crawl scheduling - full vs incremental refresh frequency",
@@ -183,7 +183,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Parity",
       "severity": "High",
       "confidence": "High",
-      "note": "Strict evidence run 2026-08-03: 8 matched source records."
+      "note": "Strict evidence run 2026-08-10: 8 matched source records."
     },
     {
       "capability": "Connector visibility controls & test group rollout",
@@ -194,7 +194,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Parity",
       "severity": "Medium",
       "confidence": "Medium",
-      "note": "Strict evidence run 2026-08-03: 3 matched source records."
+      "note": "Strict evidence run 2026-08-10: 3 matched source records."
     },
     {
       "capability": "Microsoft Graph schema, semantic labels & search attributes",
@@ -205,7 +205,7 @@ export const analysisCurrent: AnalysisRound = {
       "status": "Not evaluated",
       "severity": "High",
       "confidence": "Low",
-      "note": "Strict evidence run 2026-08-03: 0 matched source records."
+      "note": "Strict evidence run 2026-08-10: 0 matched source records."
     }
   ],
   "domains": [
