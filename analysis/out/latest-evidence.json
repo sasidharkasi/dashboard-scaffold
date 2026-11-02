@@ -6,7 +6,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector about",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "ITSM",
           "itil role",
@@ -18,7 +18,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector setup",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "ITSM",
           "incident table",
@@ -35,7 +35,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "ServiceNow Knowledge connector"
         ],
@@ -45,7 +45,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector about",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Knowledge Articles",
           "Service Catalog",
@@ -58,7 +58,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector setup",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Knowledge Articles",
           "Service Catalog",
@@ -77,7 +77,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector about",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "APM Business Applications",
           "sn_apm.apm_user"
@@ -88,7 +88,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector setup",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "APM Business Applications",
           "cmdb_ci_business_app",
@@ -105,7 +105,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Federated Auth",
           "OIDC",
@@ -118,7 +118,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft connectors overview",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "OAuth 2.0"
         ],
@@ -128,7 +128,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector about",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "service account",
           "sso"
@@ -139,7 +139,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector setup",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "service account",
           "gleansearch user",
@@ -151,7 +151,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector authentication requirements",
         "sourceUrl": "https://docs.glean.com/connectors/connector-auth-requirements",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "OAuth 2.0",
           "service account",
@@ -163,7 +163,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector health index",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "service account"
         ],
@@ -173,7 +173,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector settings and visibility",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "sso",
           "identity provider"
@@ -184,11 +184,11 @@
         "vendor": "claude",
         "sourceLabel": "Anthropic - Using tools with Claude",
         "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "identity federation"
         ],
-        "snippet": "/workload-identity-federation\\\",\\\"sidebartitle\\\":\\\"workload identity federation\\\",\\\"pagetitle\\\":\\\"workload identity federation\\\"},{\\\"path\\\":\\\"/docs/en/manage-claude/wif-admin-api\\\",\\\"sidebartitle\\\":\\"
+        "snippet": "/workload-identity-federation\\\",\\\"sidebartitle\\\":\\\"workload identity federation\\\",\\\"pagetitle\\\":\\\"workload identity federation\\\",\\\"apireference\\\":\\\"organization/federation\\\"},{\\\"path\\\":\\\"/docs/en/man"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "client secret"
         ],
@@ -209,7 +209,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector about",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "OAuth application"
         ],
@@ -219,7 +219,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector setup",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "OAuth application",
           "Refresh Token Lifespan",
@@ -231,7 +231,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector authentication requirements",
         "sourceUrl": "https://docs.glean.com/connectors/connector-auth-requirements",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "OAuth application"
         ],
@@ -246,7 +246,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "ACL",
           "access control lists"
@@ -257,7 +257,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft connectors overview",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "ACL"
         ],
@@ -267,7 +267,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft Copilot connector deployment overview",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "ACL"
         ],
@@ -277,7 +277,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft Graph connectors API overview",
         "sourceUrl": "https://learn.microsoft.com/en-us/graph/connecting-external-content-connectors-api-overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "ACL",
           "external groups"
@@ -288,7 +288,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector about",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/about",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "user_criteria_admin",
           "assignment-based access"
@@ -299,7 +299,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector setup",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "user_criteria_admin",
           "ACL rules"
@@ -310,7 +310,7 @@
         "vendor": "claude",
         "sourceLabel": "Anthropic - About connectors",
         "sourceUrl": "https://support.anthropic.com/en/articles/11175166-about-connectors",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "access control"
         ],
@@ -325,7 +325,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector monitoring",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Indexing phase",
           "Items synced",
@@ -337,7 +337,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector health index",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Items synced",
           "initial sync"
@@ -348,7 +348,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector settings and visibility",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Items synced",
           "initial sync"
@@ -364,7 +364,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector monitoring",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Change rate (items/day)"
         ],
@@ -374,7 +374,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector health index",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Crawl rate",
           "health signals"
@@ -385,7 +385,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector settings and visibility",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Crawl rate",
           "Change rate (items/day)"
@@ -401,7 +401,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector health index",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "Connector failure alerts"
         ],
@@ -416,7 +416,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft Copilot connector deployment overview",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "permission updates"
         ],
@@ -426,7 +426,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean ServiceNow connector setup",
         "sourceUrl": "https://docs.glean.com/connectors/native/servicenow/setup",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "sys_audit_delete"
         ],
@@ -436,7 +436,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean crawling deletion",
         "sourceUrl": "https://docs.glean.com/connectors/crawling-deletion",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "webhook-based deletion",
           "full crawl cleanup"
@@ -452,7 +452,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "full crawl",
           "incremental crawl frequency",
@@ -464,7 +464,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft connectors overview",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "full crawl"
         ],
@@ -474,7 +474,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft Copilot connector deployment overview",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "full crawl"
         ],
@@ -484,7 +484,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector monitoring",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "incremental crawl"
         ],
@@ -494,7 +494,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector health index",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-health-index",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "full crawl",
           "incremental crawl"
@@ -505,7 +505,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean crawling frequency",
         "sourceUrl": "https://docs.glean.com/connectors/crawling-frequency",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "refresh rates"
         ],
@@ -515,7 +515,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean crawling deletion",
         "sourceUrl": "https://docs.glean.com/connectors/crawling-deletion",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "full crawl",
           "refresh rates"
@@ -526,7 +526,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector settings and visibility",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "incremental crawl"
         ],
@@ -541,7 +541,7 @@
         "vendor": "microsoft",
         "sourceLabel": "Microsoft ServiceNow Knowledge connector deployment",
         "sourceUrl": "https://learn.microsoft.com/en-us/microsoftsearch/servicenow-knowledge-deployment",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "staged rollout",
           "limited audience"
@@ -552,7 +552,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector monitoring",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-monitoring",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "test groups",
           "visibility controls"
@@ -563,7 +563,7 @@
         "vendor": "glean",
         "sourceLabel": "Glean connector settings and visibility",
         "sourceUrl": "https://docs.glean.com/connectors/connectors-settings-visibility",
-        "observedDate": "2026-10-26",
+        "observedDate": "2026-11-02",
         "matchedKeywords": [
           "test groups",
           "visibility controls"
