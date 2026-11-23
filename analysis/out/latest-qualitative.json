@@ -18,10 +18,10 @@
     "severity": "High",
     "status": "Parity",
     "evidenceStrength": "Strong evidence",
-    "summary": "Found 3 supporting evidence record(s) across vendors.",
+    "summary": "Found 4 supporting evidence record(s) across vendors.",
     "narratives": {
       "copilotConnectors": "Copilot connectors: supported signal found from 1 source match(es).",
-      "openAi": "OpenAI: no direct evidence found this run.",
+      "openAi": "OpenAI: supported signal found from 1 source match(es).",
       "claude": "Claude: no direct evidence found this run.",
       "glean": "Glean: supported signal found from 2 source match(es)."
     },
